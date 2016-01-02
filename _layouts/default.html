@@ -2,7 +2,7 @@
 ---
 
 <!DOCTYPE html>
-<html>
+<html itemscope itemtype="http://schema.org/WebPage">
 
   {% include head.html %}
 
@@ -10,11 +10,9 @@
 
     {% include header.html %}
 
-    <section>
-      <div>
-        {{ content }}
-      </div>
-    </section>
+    <main role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+      {{ content }}
+    </main>
 
     {% include footer.html %}
 

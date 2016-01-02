@@ -19,9 +19,9 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-lighter: lighten($grey-color, 43%);
+$grey-color:       #989898;
+$grey-color-light: lighten($grey-color, 30%);
+$grey-color-lighter: lighten($grey-color, 34%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $breakpoints: (
@@ -37,26 +37,12 @@ $breakpoints: (
   xl: 75em
 ) !default;
 
-@mixin media-query1($breakpoint) { 
-  @if map-has-key($breakpoints, $breakpoint) {
-    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
-      @content;
-    }
-  }
-
-  @else {
-    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
-        + "Please make sure it is defined in `$breakpoints` map.";
-  }
-}
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "../bower_components/bootstrap/scss/bootstrap.scss",
         "../bower_components/fontawesome/scss/font-awesome.scss",
+        "_mixins",
         "base",
-        "layout",
-        "type",
+        "layouts",
         "syntax-highlighting"
 ;

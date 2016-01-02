@@ -1,0 +1,17 @@
+<div class="image">
+	<a href="{{ post.url | prepend: site.baseurl }}"></a>
+</div>
+<div class="body">
+	<h2>
+	  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	</h2>
+
+	<meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
+	<time datetime="{{ post.date | date_to_xmlschema }}">
+	  {{ post.date | date: "%b %-d, %Y" }}
+	</time>
+
+	<p>
+		Que tal ler um pouco sobre o conteudo desse texto que é tão legal e parece promissor para aprender sobre novas coisas?
+	</p>
+</div>

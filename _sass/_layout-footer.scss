@@ -1,0 +1,14 @@
+/**
+ * FOOTER
+ */
+body > footer {
+    @extend .flex-center;
+    @extend .base-container-style;
+    
+    p {
+        color: $grey-color;
+    }
+    a, a:hover {
+        color: $grey-color !important;
+    }
+}

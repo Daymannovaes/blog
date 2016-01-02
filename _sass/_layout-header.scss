@@ -1,0 +1,11 @@
+/**
+ * HEADER
+ */
+body > header {
+    @extend .flex-center-vertical;
+    @extend .base-container-style;
+    
+    >div {
+        @extend .container-max;
+    }
+}

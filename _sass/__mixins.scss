@@ -1,0 +1,47 @@
+@mixin media-query1($breakpoint) { 
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
+
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+@mixin transform($args...) {
+	-webkit-transform: $args;
+	-moz-transform: $args;
+	-ms-transform: $args;
+	-o-transform: $args;
+	transform: $args;
+}
+@mixin animation($args...) {
+	-webkit-animation: $args;
+	-moz-animation: $args;
+	-ms-animation: $args;
+	-o-animation: $args;
+	animation: $args;      
+}
+@mixin filter($args...) {
+	-webkit-filter: $args;
+	-moz-filter: $args;
+	-ms-filter: $args;
+	-o-filter: $args;
+	filter: $args;      
+}
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	$opacity-ie: $opacity * 100;
+	filter: alpha(opacity=$opacity-ie);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + $opacity-ie + ")";
+}
