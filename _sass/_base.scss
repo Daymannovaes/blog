@@ -1,3 +1,14 @@
+.container-max {
+  @include make-container();
+
+  // For each breakpoint, define the maximum width of the container in a media query
+  @each $breakpoint, $container-max-width in $container-max-widths {
+    @include media-breakpoint-up($breakpoint) {
+      width: $container-max-width;
+    }
+  }
+}
+
 /**
  * Reset some basic elements
  */
@@ -25,19 +36,33 @@ body {
     font-kerning: normal;
 }
 
+body > section {
+    @extend .container;
 
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    height: 1000px;
 }
 
+.flex {
+    display: flex;
+}
+.flex-center-vertical {
+    @extend .flex;
+    align-items: center;
+}
+.flex-center-horizontal {
+    @extend .flex;
+    justify-content: center;
+}
+.flex-center {
+    @extend .flex-center-vertical;
+    @extend .flex-center-horizontal;
+}
 
+.base-container-style {
+    min-height: $spacing-container;
+    margin-bottom: $spacing-unit;
+    background-color: $grey-color-lighter;
+}
 
 /**
  * Images
@@ -149,29 +174,6 @@ pre {
         padding-left: 0;
     }
 }
-
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-
 
 
 /**

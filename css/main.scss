@@ -13,6 +13,7 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
+$spacing-container: 150px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -20,34 +21,42 @@ $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
+$grey-color-lighter: lighten($grey-color, 43%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    800px;
+$breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 34em,
+  // Medium screen / tablet
+  md: 48em,
+  // Large screen / desktop
+  lg: 62em,
+  // Extra large screen / wide desktop
+  xl: 75em
+) !default;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+@mixin media-query1($breakpoint) { 
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
     }
-}
+  }
 
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "../bower_components/bootstrap/scss/bootstrap.scss",
+        "../bower_components/fontawesome/scss/font-awesome.scss",
         "base",
         "layout",
+        "type",
         "syntax-highlighting"
 ;
