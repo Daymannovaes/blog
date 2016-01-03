@@ -6,6 +6,7 @@ body > footer {
     @extend .base-container-style;
     
     p {
+    	@extend .container-padding;
         color: $grey-color;
     }
     a, a:hover {

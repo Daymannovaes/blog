@@ -1,0 +1,23 @@
+/**
+ * POST
+ */
+body > article {
+    @extend .container;
+
+    margin-bottom: $spacing-unit;
+
+    header {
+    	margin-bottom: $spacing-unit;
+
+    	time {
+    		color: $grey-color;
+    	}
+
+    	h1 {
+    		@extend .title-font;
+    		color: #333;
+			text-shadow: 1px 2px 0px #ccc;
+			font-size: 60px;
+    	}
+    }
+}

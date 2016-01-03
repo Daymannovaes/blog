@@ -11,67 +11,66 @@ body > main {
         flex-flow: row wrap;
 
         article {
-	        -webkit-flex: 1 0 300px;
-		    -ms-flex: 1 0 300px;
-		    flex: 1 0 300px;
+			-webkit-flex: 1 0 300px;
+			-ms-flex: 1 0 300px;
+			flex: 1 0 300px;
 
-		    margin: 0 .9rem 3rem;
-		    border-radius: 1px;
-		    max-width: 350px;
-		    display: inline-block;
-		    position: relative;
-		    background-color: $grey-color;
+			margin: 0 .9rem 3rem;
+			border-radius: 1px;
+			max-width: 350px;
+			display: inline-block;
+			position: relative;
+			background-color: $grey-color;
 
-		    @include transition(150ms all);
-		    &:hover {
-    			box-shadow: 0 0 15px 0px rgba(0,0,0,0.2),0 3px 3px 0 rgba(0,0,0,0.24);
+			@include transition(150ms all);
+			&:hover {
+				box-shadow: 0 0 15px 0px rgba(0,0,0,0.2),0 3px 3px 0 rgba(0,0,0,0.24);
 
-    			.image {
-		    		background-size: 108%;
-		    		@include filter(brightness(100%));
-		    	}
-		    }
+				.image {
+					background-size: 108%;
+					@include filter(brightness(100%));
+				}
+			}
 
-		    .image {
-		    	min-width: 300px;
-		    	min-height: 150px;
+			.image {
+				min-width: 300px;
+				min-height: 150px;
 
-		    	background-size: 110%;
-		    	background-position: 50% 50%;
-		    	background-repeat: no-repeat;
-		    	
-		    	@include transition(300ms all);
-	    		@include filter(brightness(90%));
+				background-size: 110%;
+				background-position: 50% 50%;
+				background-repeat: no-repeat;
+				
+				@include transition(300ms all);
+				@include filter(brightness(90%));
 
-		    	position: relative;
-		    	a {
-		    		position: absolute;
-		    		width: 100%;
-		    		height: 100%;
-		    	}
-		    }
-		    .body {
-		    	padding: $spacing-unit/2;
+				position: relative;
+				a {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.body {
+				padding: $spacing-unit/2;
 
-		    	h2 a {
-	    		    color: #FFFFFF;
-    				text-shadow: 0px 2px 0px rgb(134, 134, 134);
+				h2 a {
+					@extend .title-font;
+					color: #FFFFFF;
+					text-shadow: 0px 2px 0px rgb(134, 134, 134);
+					font-size: 26px;
+					line-height: 33px;
+				}
 
-    				font-family: 'PT Sans Narrow', sans-serif;
-				    font-size: 26px;
-				    line-height: 33px;
-		    	}
+				time {
+					color: #333;
+					margin: 9px 0;
+					font-size: 12px;
+				}
 
-		    	time {
-		    		color: #333;
-    				margin: 9px 0;
-    				font-size: 12px;
-		    	}
-
-		    	p {
-		    		color: #eee;
-		    	}
-		    }
+				p {
+					color: #eee;
+				}
+			}
         }
     }
 }

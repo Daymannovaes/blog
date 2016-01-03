@@ -5,7 +5,7 @@ body > header {
     @extend .flex-center-vertical;
     @extend .base-container-style;
     
-    >div {
+    > div {
         @extend .container-max;
     }
 }

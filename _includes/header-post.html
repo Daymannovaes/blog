@@ -1,0 +1,9 @@
+<header>
+	<h1 itemprop="name headline">
+		{{ page.title }}
+	</h1>
+	<meta itemprop="datePublished" content="{{page.date | date_to_xmlschema }}">
+	<time datetime="{{ page.date | date_to_xmlschema }}">
+	  {{ page.date | date: "%b %-d, %Y" }}
+	</time>
+</header>

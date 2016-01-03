@@ -14,4 +14,4 @@ github_username:  daymannovaes
 # Build settings
 highlighter: pygments
 markdown: kramdown
-permalink: /:title/
+permalink: /post/:title/
