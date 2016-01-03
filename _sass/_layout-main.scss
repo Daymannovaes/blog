@@ -4,7 +4,7 @@
 body > main {
     @extend .container;
 
-    height: 1000px;
+    margin-bottom: $spacing-unit;
 
     > div {
         @extend .flex;
