@@ -67,8 +67,14 @@ body > main {
 					font-size: 12px;
 				}
 
-				p {
-					color: #eee;
+				> a {
+					&:hover {
+						text-decoration: none;
+					}
+					p {
+						color: #eee;
+
+					}
 				}
 			}
         }

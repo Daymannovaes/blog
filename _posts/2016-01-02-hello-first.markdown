@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "hello bru!"
-date:   2015-03-01 15:42:00 -0200
+title:  "hello first!"
 categories: jekyll update
 image_list: /blog/src/img/2016-01-03-teste.png
 description: >

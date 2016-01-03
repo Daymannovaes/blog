@@ -11,7 +11,9 @@
 	  {{ post.date | date: "%b %-d, %Y" }}
 	</time>
 
-	<p>
-		{{ post.description }}
-	</p>
+	<a href="{{ post.url | prepend: site.baseurl }}">
+		<p>
+			{{ post.description }}
+		</p>
+	</a>
 </div>
