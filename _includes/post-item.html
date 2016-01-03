@@ -1,4 +1,4 @@
-<div class="image wow fadeIn">
+<div class="image wow fadeIn" style="background-image: url({{ post.image_list }})">
 	<a href="{{ post.url | prepend: site.baseurl }}"></a>
 </div>
 <div class="body">
@@ -12,6 +12,6 @@
 	</time>
 
 	<p>
-		Que tal ler um pouco sobre o conteudo desse texto que é tão legal e parece promissor para aprender sobre novas coisas?
+		{{ post.description }}
 	</p>
 </div>
