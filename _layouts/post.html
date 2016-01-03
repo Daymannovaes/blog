@@ -10,15 +10,22 @@
   <body>
 
 	{% include header.html %}
+    <section class="post">
+      <article itemscope itemtype="http://schema.org/BlogPosting">
+      	
+      	{% include header-post.html %}
+      	
+      	<section itemprop="articleBody">
+      		{{ content }}
+      	</section>
+      </article>
 
-    <article itemscope itemtype="http://schema.org/BlogPosting">
-    	
-    	{% include header-post.html %}
-    	
-    	<section itemprop="articleBody">
-    		{{ content }}
-    	</section>
-    </article>
+      <hr />
+
+      {% if page.comments != false %}
+        {% include comments.html %}
+      {% endif %}
+    </section>
 
     {% include footer.html %}
 

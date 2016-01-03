@@ -1,23 +1,40 @@
 /**
  * POST
  */
-body > article {
-    @extend .container;
+.post {
+    article {
+        @extend .container;
 
-    margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit * 2;
 
-    header {
-    	margin-bottom: $spacing-unit;
+        header {
+            margin-bottom: $spacing-unit;
 
-    	time {
-    		color: $grey-color;
-    	}
+            time {
+                color: $grey-color;
+            }
 
-    	h1 {
-    		@extend .title-font;
-    		color: #333;
-			text-shadow: 1px 2px 0px #ccc;
-			font-size: 60px;
-    	}
+            h1 {
+                @extend .title-font;
+                color: #333;
+                text-shadow: 1px 2px 0px #ccc;
+                font-size: 60px;
+            }
+        }
+    }
+    
+    hr {
+        @include container(0.6);
+        margin-bottom: $spacing-unit;
+    }
+
+    .comments {
+        @include container(0.8);
+        margin-bottom: $spacing-unit;
+
+        h2, h3 {
+            @extend .title-font;
+            margin-bottom: $spacing-unit / 2;
+        }
     }
 }
