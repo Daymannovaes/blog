@@ -11,7 +11,7 @@ description: >
 
 Olá, se você chegou até aqui, você está <span class="line-crossed">louco</span> com sorte. Este é um post que explica por alto como fiz este blog. <small>é um "clássico" começar assim né?</small>
 
-Mas porque <strong>2 dias</strong>? Porque no processo descobri e utilizei algumas tecnologias que me ajudaram muito no processo, e que podem ser muito úteis para você, mesmo que não pretenda fazer um blog.
+Mas por que <strong>2 dias</strong>? Porque no processo descobri e utilizei algumas tecnologias que me ajudaram muito no processo, e que podem ser muito úteis para você, mesmo que não pretenda fazer um blog.
 
 Primeiro de tudo, estas são algumas das tecnologias usadas: <br> <small>fique tranquilo caso não conheça alguma, com certeza farei um post explicando cada uma</small>.
 
@@ -66,7 +66,7 @@ Inclusive o meu [site pessoal] está hospedado no GitHub, mas o que nunca imagin
 	![my website][image my_website]
 </span>
 
-O que isso significa? Em outras palavras: Lembra que eu disse que com Jekyll é possível separar uma página html em diferente arquivos e ele se encarrega de compilar e gerar a página completa? 
+O que isso significa? Em outras palavras: Lembra que eu disse que com Jekyll é possível separar uma página html em diferentes arquivos e ele se encarrega de compilar e gerar a página completa? 
 Ao invés de se hospedar a página gerada, podemos hospedar nosso código em Jekyll que o GitHub se responsabiliza de compilar e disponibilizar o compilado.
 
 Isso acelera e facilita o desenvolvimento por exemplo, ao permitir que você escreva um post do celular, e o envie diretamente para o repositório.
