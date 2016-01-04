@@ -12,6 +12,6 @@ facebook_username: daymannovaes
 github_username:  daymannovaes
 
 # Build settings
-highlighter: pygments
 markdown: kramdown
+highlighter: rouge
 permalink: /post/:title/

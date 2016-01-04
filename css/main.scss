@@ -39,7 +39,7 @@ $breakpoints: (
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "../bower_components/bootstrap/scss/bootstrap.scss",
+        "../bower_components/bootstrap/scss/bootstrap-flex.scss",
         "../bower_components/fontawesome/scss/font-awesome.scss",
         "_mixins",
         "base",

@@ -42,6 +42,14 @@ body {
     @extend .flex-center-vertical;
     @extend .flex-center-horizontal;
 }
+.center-horizontal {
+    @extend .flex-center-horizontal;
+
+    > * {
+        margin: 0 auto;
+        display: block;
+    }
+}
 
 .base-container-style {
     min-height: $spacing-container;
@@ -70,6 +78,33 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.line-through, .line-crossed {
+    text-decoration: line-through;
+}
+
+.two-images {
+    @extend .row;
+
+    > * {
+        @extend .col-md-6;
+        @extend .col-sm-12;
+    }
+
+    @include media-query(md) {
+        &.join > * {
+            &:first-child {
+                text-align: right;
+            }
+            &:last-child {
+                text-align: left;
+            }
+        }
+    }
+}
+
+img {
+    max-width: 100%;
+}
 
 
 /**

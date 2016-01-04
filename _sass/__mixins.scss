@@ -1,4 +1,4 @@
-@mixin media-query1($breakpoint) { 
+@mixin media-query($breakpoint) { 
   @if map-has-key($breakpoints, $breakpoint) {
     @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
       @content;
