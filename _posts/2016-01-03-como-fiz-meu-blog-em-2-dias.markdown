@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Como fiz meu blog em 2 dias"
+title:  "Como fiz meu blog em 2 dias - Parte 1: Jekyll e GitHub Pages"
 image_list: /blog/src/img/2016-01-03-como-fiz-meu-blog-em-2-dias.png
 comments: true
 description: >

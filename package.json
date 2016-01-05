@@ -1,0 +1,7 @@
+{
+  "name": "blog.dayman.io",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bundle exec jekyll serve --drafts --config _config.yml,_config_dev.yml"
+  }
+}
