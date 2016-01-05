@@ -6,6 +6,7 @@
         @include container(0.8);
 
         margin-bottom: $spacing-unit * 2;
+        font-size: 1.25rem;
 
         header {
             margin-bottom: $spacing-unit;
@@ -82,7 +83,7 @@
     }
 
     .comments {
-        @include container(0.8);
+        @include container(0.65);
         margin-bottom: $spacing-unit;
 
         h2, h3 {

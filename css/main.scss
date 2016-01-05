@@ -6,7 +6,8 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+//$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -26,7 +27,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $breakpoints: (
   // Extra small screen / phone
-  xs: 0,
+  xs: 22em,
   // Small screen / phone
   sm: 34em,
   // Medium screen / tablet

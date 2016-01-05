@@ -10,6 +10,18 @@
         + "Please make sure it is defined in `$breakpoints` map.";
   }
 }
+@mixin media-query-down($breakpoint) { 
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (max-width: #{map-get($breakpoints, $breakpoint) - 0.01}) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
 
 @mixin transition($args...) {
 	-webkit-transition: $args;
@@ -38,6 +50,11 @@
 	-ms-filter: $args;
 	-o-filter: $args;
 	filter: $args;      
+}
+@mixin flex($args...) {
+	-webkit-flex: $args;
+	-ms-flex: $args;
+	flex: $args;
 }
 @mixin opacity($opacity) {
 	opacity: $opacity;

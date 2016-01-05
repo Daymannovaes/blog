@@ -1,6 +1,9 @@
 /**
  * MAIN
  */
+
+$min-height-article-xs: #{map-get($breakpoints, xs)/2 + 1};
+$min-height-article: 300px;
 body > main {
     @extend .container;
 
@@ -11,13 +14,15 @@ body > main {
         flex-flow: row wrap;
 
         article {
-			-webkit-flex: 1 0 300px;
-			-ms-flex: 1 0 300px;
-			flex: 1 0 300px;
+        	@include flex(1 0 $min-height-article-xs);
+
+			@include media-query(xs) {
+				@include flex(1 0 300px);
+				max-width: 350px;
+			}
 
 			margin: 0 .9rem 3rem;
 			border-radius: 1px;
-			max-width: 350px;
 			display: inline-block;
 			position: relative;
 			background-color: $grey-color;
@@ -33,8 +38,21 @@ body > main {
 			}
 
 			.image {
-				min-width: 300px;
-				min-height: 150px;
+				min-width: 0;
+				min-height: 0;
+				display: none; //hide image on small screens
+
+				@include media-query(xs) {
+					min-width: 300px;
+					min-height: 150px;
+					display: block;
+				}
+
+				//this prevent load image in extra smalls screens
+				@include media-query-down(xs) {
+					background: none !important;
+					background-image: none !important;
+				}
 
 				background-size: 110%;
 				background-position: 50% 50%;
