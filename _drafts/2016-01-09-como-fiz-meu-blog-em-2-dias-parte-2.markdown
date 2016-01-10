@@ -105,6 +105,10 @@ Acho que você já entendeu uma das vantagens de um pré processador. Só pra ga
 
 No caso do Sass, você pode escrever seletores aninhados, como no exemplo, pode utilizar variáveis, e também funções. E são exatamente as funções que me ajudaram mais no processo da ~responsividade.
 
+
+A
+A
+
 <br>
 <br>
 
