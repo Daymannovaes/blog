@@ -103,11 +103,28 @@ footer p {
 
 Acho que você já entendeu uma das vantagens de um pré processador. Só pra garantir, vou explicar. Um <strong>pré processador</strong>, em geral, define uma sintaxe um pouco diferente em relação à linguagem original, com algumas facilidades que esta não oferece.
 
-No caso do Sass, você pode escrever seletores aninhados, como no exemplo, pode utilizar variáveis, e também funções. E são exatamente as funções que me ajudaram mais no processo da ~responsividade.
+No caso do Sass, você pode escrever seletores aninhados como no exemplo, pode utilizar variáveis e também funções. E são exatamente as funções que me ajudaram mais no processo da responsividade.
+
+Antes de continuar, vou falar rapidamente das media querys. Você já imaginou pode escrever um estilo diferente para diferentes tamanhos de tela?
+
+Essa é a função das media querys, e seu funcionamento é bem simples, como vocês podem ver no exemplo:
+
+<h2>media query</h2>
+
+Bom, explicado Sass e media query, é a hora do Bootstrap entrar. 
+
+O Bootstrap define o que ele chama de `breakpoints`, ou ~pontos de quebra. Cada breakpoint define um tamanho específico de tela:
+
+|sigla|nome|device|tamanho|
+|:---:|:--:|:----:|:-----:|
+|xs|extra small|phones|? 
+|sm|small|
+|md|medium|
+|lg|large|
+|xl|extra large|
 
 
-A
-A
+
 
 <br>
 <br>
