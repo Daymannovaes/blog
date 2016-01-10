@@ -105,6 +105,8 @@ Acho que você já entendeu uma das vantagens de um pré processador. Só pra ga
 
 No caso do Sass, você pode escrever seletores aninhados como no exemplo, pode utilizar variáveis e também funções. E são exatamente as funções que me ajudaram mais no processo da responsividade.
 
+<h1>exemplo de função e Include </h1>
+
 Antes de continuar, vou falar rapidamente das media querys. Você já imaginou pode escrever um estilo diferente para diferentes tamanhos de tela?
 
 Essa é a função das media querys, e seu funcionamento é bem simples, como vocês podem ver no exemplo:
@@ -123,6 +125,13 @@ O Bootstrap define o que ele chama de `breakpoints`, ou ~pontos de quebra. Cada 
 |lg|large|
 |xl|extra large|
 
+
+Estes valores são importantes e definidos para otimizar e facilitar o layout responsivo. Eles são usados em várias classes, mas uma muito importante é a classe `container`. 
+
+Como o próprio nome já diz, ela serve como um container e define um espaço centralizado e sempre menor que a tela, ou seja, ela sempre deixa uma margem em relação à borda. Veja seu funcionamento: 
+
+<h2>código do compilado</h2>
+<h2>gif mostrando a tela diminuindo</h2>
 
 
 
