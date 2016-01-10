@@ -131,9 +131,13 @@ Estes valores são importantes e definidos para otimizar e facilitar o layout re
 Como o próprio nome já diz, ela serve como um container e define um espaço centralizado e sempre menor que a tela, ou seja, ela sempre deixa uma margem em relação à borda. Veja seu funcionamento: 
 
 <h2>código do compilado</h2>
-<h2>gif mostrando a tela diminuindo</h2>
+<h2>gif mostrando a tela diminuindo</h2> trocar um com outro
 
+Agora é que a mágica realmente magia acontece 
 
+<h2>@include container(0.8);</h2>
+
+Podemos ver que o container fica em torno o de 90% a 75% do tamanho da tela, porém, e se quisermos um tamanho proporcionalmente menor? 
 
 <br>
 <br>
