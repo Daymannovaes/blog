@@ -83,7 +83,9 @@ body {
 }
 
 .two-images, .two-columns {
-    @extend .row;
+    @include media-query(sm) {
+        @include make-row();
+    }
 
     > * {
         @extend .col-md-6;
