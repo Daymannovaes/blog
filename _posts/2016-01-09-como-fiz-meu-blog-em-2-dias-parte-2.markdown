@@ -21,6 +21,9 @@ Gostaria de começar dizendo que, apesar de ter uma certa prática com CSS e o p
 
 Então, por favor, se for criticar algo, que seja sobre o post, e não sobre a imagem. <small>brincadeira hehe</small>
 
+E se não viu a primeira parte da série, que explico sobre Jekyll e GitHub Pages, <a href="/blog/post/como-fiz-meu-blog-em-2-dias/">veja aqui</a>.
+
+
 Bootstrap é um framework para CSS <small>principalmente</small> para desenvolvimento responsivo. Ele possui várias classes utilitárias prontas, tanto para facilitar que seu site fique responsivo <small>você pode abrir esse blog no celular que ele fica bonitinho &hearts;</small>, quanto para componentes, como por exemplo botões, com a classe `btn`:
 
 <div class="two-columns join -padding-change">
