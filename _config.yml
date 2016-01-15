@@ -3,7 +3,7 @@
 title: Dayman Novaes
 email: daymannovaes@gmai.com
 description: > # this means to ignore newlines until "baseurl:"
-  Um blog sobre desenvolvimento e conhecimento
+  Um pouco de filosofia sobre desenvolvimento, quer ouvir a minha opinião?
 baseurl: "/blog"
 url: "http://me.dayman.io"
 
@@ -14,4 +14,4 @@ github_username:  daymannovaes
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /post/:title/
+permalink: /:title/

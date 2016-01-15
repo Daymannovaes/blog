@@ -111,3 +111,4 @@ Qualquer dúvida, sugestão e crítica, sintam-se à vontade.
 [image jekyll_logo]: /blog/src/img/jekyll-logo-light-solid.png
 [image github_logo]: /blog/src/img/github-logo.png
 [image my_website]: /blog/src/img/2016-01-03-my-website.gif
+[image painter_bg]: /blog/src/img/2016-01-17-painter-bg.jpg
