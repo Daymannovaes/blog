@@ -59,9 +59,35 @@ Quanto ao editor, quando melhor ele for, melhor. Coisas como identação, sintax
 
 Claro, esqueci de mencionar, se não podemos usar nosso laptop <small>ou desktop</small> no momento, seja porque estamos sem eles, ou porque estamos no ônibus ou em algum lugar arriscado de se usá-los, precisamos de <strong>pelo menos</strong> um celular <small>ou um tablet</small> para se escrever.
 
+FALAR DO DROID EDIT (LINK)
+PAGUEI 8 REAIS (FALAR DAS DIFERENÇAS ENTRE O FREE E O PAGO)
+PROCURAR OPÇÃO PARA IOS
+
+
+AGORA FALAR DO DO COMPILADOR QUE NAO
+CITAR QUE DEPENDENDO DA LINGUAGEM, É ESSENCIAL A COMPILAÇÃO, COMO C++ OU JAVA
+
+FALAR QUE, SE EU ESTIVER ERRADO, POR FAVOR ME CORRIJA
+
 Agora sobre a compilar/executar, o celular tem uma certa limitação, então como resolver? 
 
 Bom, existe uma **metodologia** famosa capaz de resolver esse problema, ela se chama **99% no celular, mas aquele 1% no computador**. 
+
+
+
+DEPOIS FALAR DO GIT, TIPO H2: OUTRAS FERRAMENTAS
+FALAR QUE MEU PROXIMO POST EXPLICARÁ COM MAIS DETALHES COMO O GIT FUNCIONA (DEPOIS COLOCO O LINK)
+FALAR QUE O POST SAIRÁ PROVAVELMENTE NO FIM DO MES
+
+FALAR DO ANALYTICS (OW, EM ALGUM MOMENTO TEM QUE MOSTRAR A IMAGEM DO FOLDER DO ANDROID LA)
+
+
+<h3>
+	Não preciseiler confúcio amigo, pra saber que não pode ter distância entre o que faço e o que digo.
+</h3>
+<h3>
+	<strong>Eu fiquei feliz comigo</strong> ao fazer esse blog e fico de novo a cada vez que começo, termino e publico um post. E também quero que <strong>você fique feliz contigo</strong>.
+</h3>
 
 Quando comecei a escrever o primeiro post (link do primeiro Post) para o blog, foi bem no dia do aniversário da minha sogra, então eu pensei, como vou escrever o post sem parecer um anti-social que usa notebook no meio de uma festa? 
 
@@ -73,6 +99,8 @@ Espera, não é tão simples assim.
 
 LEMBRAR DO CALLBACK DO CAVALETE É PALHETA
 CALLBACK DO "JA PINTOU UM QUADRO"?
+
+CALLBACK DE PORQUE MOSTREI UMA IMAGEM DO MACHU PICHU: DESEJO DE VIAJAR O MUNDO, CORRER ATRAS DA MINHA IDEPENDENCIA, DE ESCOLA, FACULDADE, TRABALHO, PRESSÃO SOCIAL, ETC (INSPIRADO PELO CASEY)
 
 MOSTRAR IMAGEM IMAGEM DA PASTA NO ANDROID
 
