@@ -4,6 +4,7 @@
 body > footer {
     @extend .flex-center;
     @extend .base-container-style;
+    margin-bottom: $spacing-unit;
     
     p {
     	@extend .container-padding;
