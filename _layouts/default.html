@@ -10,8 +10,10 @@
   <body>
 
     {% include header.html %}
-
-  	{{ content }}
+	
+	<main role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+	  	{{ content }}
+  	</main>
 
     {% include footer.html %}
 

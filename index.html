@@ -2,19 +2,15 @@
 layout: default
 ---
 
-{% include mailchimp-form.html %}
-
-<main role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-	<div>
-	  {% for post in site.posts %}
-	    <article itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-	      {% include post-item.html %}
-	    </article>
-	  {% endfor %}
+<div>
+  {% for post in site.posts %}
+    <article itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+      {% include post-item.html %}
+    </article>
+  {% endfor %}
 
 
-	</div>
+</div>
 
-	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</main>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

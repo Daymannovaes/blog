@@ -1,0 +1,40 @@
+{% if include.pre %}
+	{% assign pre = include.pre %}
+{% else %}
+	{% assign pre = "form" %}
+{% endif %}
+
+{% if include.label_text %}
+	{% assign label_text = include.label_text %}
+{% else %}
+	{% assign label_text = "Agora você pode receber os posts por email" %}
+{% endif %}
+
+{% if include.pre_text %}
+	{% assign pre_text = include.pre_text %}
+{% else %}
+	{% assign pre_text = "&raquo;" %}
+{% endif %}
+
+{% if include.button_text %}
+	{% assign button_text = include.button_text %}
+{% else %}
+	{% assign button_text = " Me inscrever!" %}
+{% endif %}
+
+<form action="//dayman.us12.list-manage.com/subscribe/post?u=52f6e7a33b2d54479c5fc54ee&amp;id=38c9a8ef8c" method="post" id="mc-embedded-subscribe-{{pre}}" name="mc-embedded-subscribe-{{pre}}" class="validate" target="_blank" novalidate>
+	<div>
+		<label for="mce-EMAIL-{{pre}}">
+			{{ label_text }}
+		</label>
+		{{ pre_text }} <input type="email" value="" name="EMAIL" class="email wow pulse" data-wow-delay="2s" data-wow-duration="1s" id="mce-EMAIL-{{pre}}" placeholder="digite seu email aqui" required>
+		
+		<div style="position: absolute; left: -5000px;" aria-hidden="true">
+			<input type="text" name="b_52f6e7a33b2d54479c5fc54ee_38c9a8ef8c" tabindex="-1" value="">
+		</div>
+		
+		<button type="submit" name="subscribe" id="mc-embedded-subscribe-button-{{pre}}" class="btn btn-default wow fadeIn">
+			<i class="fa fa-share"></i> {{ button_text }}
+		</button>
+	</div>
+</form>
