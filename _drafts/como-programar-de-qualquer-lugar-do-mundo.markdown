@@ -59,6 +59,22 @@ Quanto ao editor, quando melhor ele for, melhor. Coisas como identação, sintax
 
 Claro, esqueci de mencionar, se não podemos usar nosso laptop <small>ou desktop</small> no momento, seja porque estamos sem eles, ou porque estamos no ônibus ou em algum lugar arriscado de se usá-los, precisamos de <strong>pelo menos</strong> um celular <small>ou um tablet</small> para se escrever.
 
+Temos várias opções de editor de texto, tanto para Android, IOS ou Windows. 
+
+MOSTRAR AS TRÊS OPCOES
+
+Para Android recomendo o DroidEdit. Eu inclusive agora estou no ônibus e usando ele. 
+
+MOSTRAR PRINT
+
+Ele é muito bom, possui sintax highlight para várias linguagens, integração com vários cloud services, como Dropbox, Drive e Box. Possui um search e replace completo, com opção de case sensitive e busca por regex. E também tem integração com o Git.
+
+Ele é tão bom, que paguei R$8,00 pela versão paga, simplesmente para contribuir e para não ter propagandas, que é a única diferença na versão free. 
+
+Falando no Git, daqui a pouco vai falar mais dele. 
+
+DEPOIS CONTAR HISTORIA DO GIT, TSLVEZ FALAR SO SVN, DA TREE 
+
 FALAR DO DROID EDIT (LINK)
 PAGUEI 8 REAIS (FALAR DAS DIFERENÇAS ENTRE O FREE E O PAGO)
 PROCURAR OPÇÃO PARA IOS
