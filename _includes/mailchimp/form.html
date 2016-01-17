@@ -22,6 +22,19 @@
 	{% assign button_text = " Me inscrever!" %}
 {% endif %}
 
+{% if include.button_class %}
+	{% assign button_class = include.button_class %}
+{% else %}
+	{% assign button_class = "fadeIn" %}
+{% endif %}
+
+
+{% if include.button_delay %}
+	{% assign button_delay = include.button_delay %}
+{% else %}
+	{% assign button_delay = "300ms" %}
+{% endif %}
+
 <form action="//dayman.us12.list-manage.com/subscribe/post?u=52f6e7a33b2d54479c5fc54ee&amp;id=38c9a8ef8c" method="post" id="mc-embedded-subscribe-{{pre}}" name="mc-embedded-subscribe-{{pre}}" class="validate" target="_blank" novalidate>
 	<div>
 		<label for="mce-EMAIL-{{pre}}">
@@ -33,7 +46,7 @@
 			<input type="text" name="b_52f6e7a33b2d54479c5fc54ee_38c9a8ef8c" tabindex="-1" value="">
 		</div>
 		
-		<button type="submit" name="subscribe" id="mc-embedded-subscribe-button-{{pre}}" class="btn btn-default wow fadeIn">
+		<button type="submit" name="subscribe" id="mc-embedded-subscribe-button-{{pre}}" class="btn btn-default wow {{ button_class }}" data-wow-delay="{{ button_delay }}">
 			<i class="fa fa-share"></i> {{ button_text }}
 		</button>
 	</div>

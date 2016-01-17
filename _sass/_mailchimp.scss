@@ -23,6 +23,11 @@
             background-color: #014c8c;
         }
     }
+    @include media-query-down(sm) {
+        input[type="email"], input[type="text"] {
+            margin-bottom: 15px;
+        }
+    }
 
     &.header, &.footer {
     	background: #F3F3F3;
@@ -37,18 +42,25 @@
         margin-bottom: $spacing-unit;
 
         > div {
-        	@extend .container;
+            @extend .container;
         }
 
         label {
-        	margin-right: 20px;
+            margin-right: 20px;
         }
     }
 
     &.footer {
         @include container(0.7);
 
-        padding: $spacing-unit/2 0;
-        margin-bottom: $spacing-unit;
+        border-top: 5px solid #D4D4D4;
+        border-bottom: 5px solid #BDBDBD;
+
+        padding: 30px 15px;
+
+        label {
+            display: block;
+            margin-bottom: 1.5rem;
+        }
     }
 }
