@@ -53,7 +53,7 @@ Vamos direto ao ponto, o que é essencial para se programar?
  * Uma forma de executar nosso código
  * Só? 
  
-Quanto ao editor, quanto melhor ele for, melhor. Coisas como identação, sintax highlight e atalhos de código são coisas boas. O editor então é <small>relativamente</small> fácil de se conseguir em um celular.
+Quanto ao editor, quanto melhor ele for, melhor. Coisas como indentação, sintax highlight e atalhos de código são coisas boas. O editor então é <small>relativamente</small> fácil de se conseguir em um celular.
 
 Claro, esqueci de mencionar, se não podemos usar nosso laptop <small>ou desktop</small> no momento, seja porque estamos sem eles, ou porque estamos no ônibus ou em algum lugar arriscado de se usá-los, precisamos de <strong>pelo menos</strong> um celular <small>ou um tablet</small> para se escrever.
 
