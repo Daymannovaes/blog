@@ -53,7 +53,7 @@ Vamos direto ao ponto, o que é essencial para se programar?
  * Uma forma de executar nosso código
  * Só? 
  
-Quanto ao editor, quando melhor ele for, melhor. Coisas como identação, sintax highlight e atalhos de código são coisas boas. O editor então é <small>relativamente</small> fácil de se conseguir em um celular.
+Quanto ao editor, quanto melhor ele for, melhor. Coisas como identação, sintax highlight e atalhos de código são coisas boas. O editor então é <small>relativamente</small> fácil de se conseguir em um celular.
 
 Claro, esqueci de mencionar, se não podemos usar nosso laptop <small>ou desktop</small> no momento, seja porque estamos sem eles, ou porque estamos no ônibus ou em algum lugar arriscado de se usá-los, precisamos de <strong>pelo menos</strong> um celular <small>ou um tablet</small> para se escrever.
 
@@ -81,7 +81,7 @@ Ele é muito bom, possui <span class="highlight pre"><span class="nt">sintax</sp
 
 Ele é tão bom, que paguei R$8.00 pela versão paga, simplesmente para contribuir e para não ter propagandas, que é a única diferença na versão free. 
 
-Falando no Git, daqui a pouco vou falar mais dele.
+Falando no Git, daqui a pouco falo mais dele.
 
 Já a opção do iOS foi recomendação de um amigo e chama-se <a href="https://itunes.apple.com/br/app/code-master-source-code-editor/id502404926?mt=8">Code Master</a> <small>o aplicativo, não o meu amigo</small>, então nunca o usei e não sei falar de sua eficiência, fica por sua conta e risco.
 
