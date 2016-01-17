@@ -1,6 +1,9 @@
 /**
  * HEADER
  */
+
+$img-height: 100px;
+
 body > header {
     @extend .flex-center;
     @extend .base-container-style;
@@ -10,23 +13,37 @@ body > header {
     	@extend .container-max;
     }
 
-    span {
+    span.text {
         color: $grey-color;
         display: block;
-        margin: 0 auto;
+        margin: 30px auto;
+    }
+
+    @include media-query-down(sm) {
+        .profile-name {
+            display: none;
+        }
     }
 
     .profile {
+        text-align: center;
+        margin-right: 30px;
+
         .img, img {
             @include border-radius(50%);
         }
+        a, a:hover {
+            color: $grey-color !important;
+        }
         
         .img {
-            width: 80px;
-            height: 80px;
+            width: $img-height;
+            height: $img-height;
             border: 3px solid #DEDEDE;
             border-bottom: 1px solid #CECECE;
             padding: 2px;
+
+            margin: 0 auto;
 
             @include transition(200ms all);
 
@@ -37,9 +54,9 @@ body > header {
                 content: 'sobre';
                 position: absolute;
                 text-align: center;
-                width: 70px;
-                height: 70px;
-                line-height: 80px;
+                width: $img-height - 10px;
+                height: $img-height - 10px;
+                line-height: $img-height * 1.1;
                 background: rgba(0, 0, 0, 0.34);
                 border-radius: 50%;
                 color: #EEE;
