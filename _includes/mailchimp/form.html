@@ -28,11 +28,16 @@
 	{% assign button_class = "fadeIn" %}
 {% endif %}
 
-
 {% if include.button_delay %}
 	{% assign button_delay = include.button_delay %}
 {% else %}
 	{% assign button_delay = "300ms" %}
+{% endif %}
+
+{% if include.fa_class %}
+	{% assign fa_class = include.fa_class %}
+{% else %}
+	{% assign fa_class = "fa-share" %}
 {% endif %}
 
 <form action="//dayman.us12.list-manage.com/subscribe/post?u=52f6e7a33b2d54479c5fc54ee&amp;id=38c9a8ef8c" method="post" id="mc-embedded-subscribe-{{pre}}" name="mc-embedded-subscribe-{{pre}}" class="validate" target="_blank" novalidate>
@@ -47,7 +52,7 @@
 		</div>
 		
 		<button type="submit" name="subscribe" id="mc-embedded-subscribe-button-{{pre}}" class="btn btn-default wow {{ button_class }}" data-wow-delay="{{ button_delay }}">
-			<i class="fa fa-share"></i> {{ button_text }}
+			<i class="fa {{ fa_class }}"></i> {{ button_text }}
 		</button>
 	</div>
 </form>

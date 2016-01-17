@@ -2,20 +2,60 @@
  * HEADER
  */
 body > header {
-    @extend .flex-center-vertical;
+    @extend .flex-center;
     @extend .base-container-style;
 
     > div {
+        @extend .flex-center-vertical;
     	@extend .container-max;
-
-    	text-align: center;
     }
 
     span {
         color: $grey-color;
+        display: block;
+        margin: 0 auto;
     }
 
-    a {
-    	float: left;
+    .profile {
+        .img, img {
+            @include border-radius(50%);
+        }
+        
+        .img {
+            width: 80px;
+            height: 80px;
+            border: 3px solid #DEDEDE;
+            border-bottom: 1px solid #CECECE;
+            padding: 2px;
+
+            @include transition(200ms all);
+
+            display: block;
+            cursor: pointer;
+            
+            &::before {
+                content: 'sobre';
+                position: absolute;
+                text-align: center;
+                width: 70px;
+                height: 70px;
+                line-height: 80px;
+                background: rgba(0, 0, 0, 0.34);
+                border-radius: 50%;
+                color: #EEE;
+                opacity: 0;
+
+                @include transition(200ms opacity);
+            }
+        }
+
+        &:hover .img {
+            border: 3px solid #CECECE;
+            border-bottom: 1px solid #CECECE;
+
+            &:hover::before {
+                opacity: 1;
+            }
+        }
     }
 }
