@@ -4,7 +4,7 @@ title:  "Como programar de qualquer lugar (do mundo!)"
 image_list: /blog/src/img/2016-01-17-como-programar-de-qualquer-lugar.png
 comments: true
 description: >
-  Um pintor não pode ser "escravo" de suas ferramentas, nem nenhum outro profissional.
+  Um pintor não pode ser &quot;escravo&quot; de suas ferramentas, nem nenhum outro profissional.
   Você, programador, é um escravo das suas? O que você faz para buscar sua independência?
 ---
 
@@ -14,7 +14,7 @@ Pintar é uma arte, assim como programar. E como arte, precisamos de algumas fer
 
 Pense comigo, um pintor, se não tiver o seu <strong>cavalete</strong> para manter a tela na altura certa, terá dificuldades em encontrar uma boa posição para pintar.
 
-Um pintor, também, sem a sua <strong>palheta</strong>, não consegue misturar as cores e não expressa bem a sua pintura.
+Um pintor, também, sem a sua <strong>paleta</strong>, não consegue misturar as cores e não expressa bem a sua pintura.
 
 Um pintor sem um bom <strong>pincel</strong>, por mais experiente que seja, terá um traçado ruim e dificilmente terá um bom resultado.
 
@@ -23,7 +23,7 @@ Enfim, acho que você já entendeu.
 <h4 class="image-title">O pintor apenas usa a tecnologia a seu favor</h4>
 ![painter][image painter_bg]
 
-As ferramentas que usamos não ditam quem nós somos. O pintor em questão não é, <em>de fato</em>, pior por usar tais instrumentos, ele apenas <strong>usa a tecnologia a seu favor</strong>. E nós também, você não vai querer programar em um terminal como antigamente, quando atualmente existem novas tecnologias a seu favor, né?
+As ferramentas que usamos não ditam quem nós somos. O pintor em questão não é, <em>de fato</em>, pior por usar tais instrumentos, ele apenas <strong>usa a tecnologia a seu favor</strong>, e nós também. Você não vai querer programar em um terminal como antigamente, quando atualmente existem novas tecnologias a seu favor, né?
 
 Portanto, supondo que esse pintor teve que viajar, e está no avião, ou no ônibus, ou até mesmo já tenha chegado em seu destino, mas não tenha todos os equipamentos, seu trabalho fica mais difícil. Então ele tem algumas opções.
 
@@ -63,7 +63,7 @@ Temos várias opções de editor de texto, tanto para Android, iOS ou Windows.
 |:---:|:---:|:---:|
 |![droid edit][image icon_android]|![code master][image icon_ios]|![code editor][image icon_windows]|
 
-Para Android recomendo o <a href="https://play.google.com/store/apps/details?id=com.aor.droidedit.pro">DroidEdit</a>. Eu inclusive agora estou no ônibus e usando ele. <small>cara, ele é tão bom que até tem um <a href="</a>">site</a> lindão</small>
+Para Android recomendo o <a href="https://play.google.com/store/apps/details?id=com.aor.droidedit.pro">DroidEdit</a>. Eu inclusive agora estou no ônibus e usando ele. <small>cara, ele é tão bom que até tem um <a href="http://www.droidedit.com/">site</a> lindão</small>
 
 <div class="row p">
 	<div class="col-md-4">
@@ -87,7 +87,7 @@ Já a opção do iOS foi recomendação de um amigo e chama-se <a href="https://
 
 O mesmo acontece para o Windows Phone, mas sem a parte da recomendação de um amigo <small>é dificil encontrar alguém que use hoje em dia hehe</small>, então fica <small>mais ainda</small> por sua conta e risco.
 
-Hora do ir para o <strong>segundo tópico</strong>: Uma forma de executar nosso código.
+Hora de ir para o <strong>segundo tópico</strong>: Uma forma de executar nosso código.
 
 Esse é, <em>infelizmente</em>, um pouco mais difícil de resolver quando se usa dispositivos limitados como um celular. Pelo menos durante minha pesquisa, não consegui encontrar muitas boas soluções para executar um código, para vários casos. Portanto, só mostrarei algumas soluções encontradas para Android.
 
@@ -104,10 +104,10 @@ Para C e C++ temos uma ótima opção, que é o <a href="https://play.google.com
 	</div>
 </div>
 
-Já para <strong>phyton</strong>, o <a href="https://play.google.com/store/apps/details?id=com.hipipal.qpyplus&hl=en">QPhyton</a> me pareceu uma ótima opção, completo, e de graça!
+Já para <strong>python</strong>, o <a href="https://play.google.com/store/apps/details?id=com.hipipal.qpyplus&hl=en">QPython</a> me pareceu uma ótima opção, completo, e de graça!
 
 <span class="center-horizontal">
-	<img src="/blog/src/img/2016-01-17-q-phyton.png" alt="qphyton">
+	<img src="/blog/src/img/2016-01-17-q-phyton.png" alt="qpython">
 </span>
 
 Enfim, no final, tenho que admitir uma coisa.
@@ -116,13 +116,13 @@ Enfim, no final, tenho que admitir uma coisa.
 
 Para qualquer outra linguagem, outro trabalho, outra profissão, é muito bom que tenhamos alternativas mais simples que nos permita fazer pelo menos um esboço de nosso projeto. Porém, <strong>buscamos sempre a excelência no que fazemos</strong>.
 
-Sem um bom pincel e uma palheta, nunca conseguiremos atingir <strong>100%</strong> de nossa criação. Ainda precisamos de nossas ferramentas para dar o ~arremate final.
+Sem um bom pincel e uma paleta, nunca conseguiremos atingir <strong>100%</strong> de nossa criação. Ainda precisamos de nossas ferramentas para dar o ~arremate final.
 
 Percebe que não somos mais escravos das ferramentas, não estamos mais presos ao computador e/ou ao conforto de casa. Conseguimos produzir sem eles e, mesmo que minhas dicas não tenham sido muito úteis para você, aproveite para refletir e agir: <strong>o que você faz para buscar sua independência?</strong>
 
 Bom, no final, para todos os casos, não há como fugir daquela metodologia que todos conhecem, e que se chama <strong>fazer 99% no celular, mas aquele 1% no computador</strong>.
 
-Faltas apenas alguns detalhes para tornar tudo quase perfeito: uma forma mais fácil de integrar o código do computador com o do celular. E não, não é por pendrive, nem por email. É pelo <strong>Git</strong>.
+Faltam apenas alguns detalhes para tornar tudo quase perfeito: uma forma mais fácil de integrar o código do computador com o do celular. E não, não é por pendrive, nem por email. É pelo <strong>Git</strong>.
 
 <strong style="color:red;">spoiler: </strong> o próximo post do blog será sobre Git e GitHub.
 

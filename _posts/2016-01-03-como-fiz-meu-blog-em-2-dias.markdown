@@ -92,7 +92,7 @@ A ~mágica termina configurando um último record no seu gerenciador de DNS <sma
 
 <hr>
 
-A explicação das tecnologias ficou um pouco superficial, mas a ideia é depois fazer um post exclusivo sobre cada um, com mais exemplos e tudo mais. A continuação da série, na qual explico sobre Sass e Bootstrap <a href="/blog/post/como-fiz-meu-blog-em-2-dias-parte-2/">está aqui</a>.
+A explicação das tecnologias ficou um pouco superficial, mas a ideia é depois fazer um post exclusivo sobre cada um, com mais exemplos e tudo mais. A continuação da série, na qual explico sobre Sass e Bootstrap <a href="/blog/como-fiz-meu-blog-em-2-dias-parte-2/">está aqui</a>.
 
 Qualquer dúvida, sugestão e crítica, sintam-se à vontade.
 
