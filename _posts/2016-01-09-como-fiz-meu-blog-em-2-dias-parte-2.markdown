@@ -69,8 +69,8 @@ Bom, naturalmente os dispositivos com telas menores são celulares <small>e rel�
 
 E um blog, ou qualquer outro site que preze por uma melhor <strong>experiência de usuário</strong>, deve se preocupar com esses casos e evitar ao máximo carregar coisas pesadas, como grandes <span class="highlight"><span class="nt">scripts</span> ou imagens de alta resolução. É por isso que em telas pequenas a imagem não é carregada, como mostra o gif.
 
-~Mas como você fez isso?~ Você me pergunta. <br>
-~Simples, com ajuda do Sass e das Media Query<small class="clear">s</small>~
+<q>Mas como você fez isso?</q> Você me pergunta. <br>
+<q>Simples, com ajuda do Sass e das Media Query<small class="clear">s</small></q>
 
 <h2>
   Usando media query com Sass e Bootstrap

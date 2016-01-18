@@ -150,3 +150,16 @@ pre {
         }
     }
 }
+
+q { 
+    display: inline;
+    font-style: italic;
+}
+
+q:before { 
+    content: '~';
+}
+
+q:after { 
+    content: '~';
+}
