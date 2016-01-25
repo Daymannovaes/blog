@@ -11,6 +11,14 @@ description: >
 
 Sim. Eu também diria a mesma coisa. Já trabalho com o Git a mais de 2 anos e para mim ele se tornou uma simples ferramenta de trabalho. <strong>Indispensável</strong>, mas <strong>simples</strong>. Acontece que na sua simplicidade se esconde a força de sua complexidade.
 
+Você provavelmente deve imaginar que muito pesquisei sobre Git antes de escrever esse post, a fim de entender melhor a dinâmica de seu funcionamento. De fato, li muitos textos antes de começar mais um, procurei imagens didáticas e rodei o mundo a procura de especialistas <small>sem a parte de rodar o mundo hehe</small>.
+
+Porém, depois de achar um mundo de bons artigos, pensei o que faria o meu post único, de forma a manter a identidade do blog e, mais importante, que acrescentasse algo para o leitor.
+
+E finalmente, depois de muito pensar <small>mentira, nem pensei tanto assim</small>, decidi seguir um rumo um pouco diferente. Toda a explicação dada aqui, será 
+
+Portanto, <strong>esse não será</strong>
+
 ## fluxo normal:
  * git add --all
  * git commit -m "message"
