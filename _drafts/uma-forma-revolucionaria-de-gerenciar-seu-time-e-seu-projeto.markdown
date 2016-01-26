@@ -21,11 +21,11 @@ E finalmente, depois de muito pensar <small>mentira, nem pensei tanto assim</sma
 
 IMG DO PENDRIVE VS. GIT
 
-Imagine antigamente, antes dos <i>cloud services</i> <small>dropbox, box, drive, etc</small> existirem, como um time de desenvolvedor fazia para compartilhar as alterações feita por cada um no projeto?
+Imagine antigamente, antes dos <i>cloud services</i> <small>dropbox, box, drive, etc</small> existirem, como um time de desenvolvedores fazia para compartilhar as alterações feita por cada um no projeto?
 
 Bom, se não compartilhavam por disquete ou CD, era no mínimo por pendrive, espetando o dito cujo em cada computador, juntando as alterações manualmente nos arquivos já existentes e depois anotando, talvez no notepad ou em um papel, o que mudou nessa nova <strong>versão</strong>.
 
-Bom, com os serviços de compartilhamento atual tudo ficou claramente mais fácil e natural. Basta colocar um projeto na nuvem, dar acesso a todos da equipe, e <i>voilà</i>, teremos mais ou menos um controle sobre todas as alterações, de forma um pouco mais fácil do que ficar espetando o bom e velho pendrive.
+Bom, com os serviços de compartilhamento atuais tudo ficou claramente mais fácil e natural. Basta colocar um projeto na nuvem, dar acesso a todos da equipe, e <i>voilà</i>, teremos mais ou menos um controle sobre todas as alterações e de forma um pouco mais fácil do que ficar espetando o bom e velho pendrive.
 
 Tudo <strong>quase</strong> lindo.
 
@@ -39,8 +39,43 @@ Queremos atualizar, alterar, e gerenciar nossos projetos e nossa equipe de <a hr
 
 Sim, é isso tudo mesmo. Tão fácil quanto digitar 3 linhas de comando, ou dar 3 cliques, ou tomar um chocolate quente em um dia chuvoso.
 
+Desde o início do projeto, temos esse controle todo. No começo pode parecer complexo, mas rapidamente tudo se torna <i>tão natural quanto a luz do dia</i> <small>mas que preguiça boa, me deixa aqui atoa <i class="fa fa-music"></i></small>. E a cada alteração, ou conjunto de alterações feitas ao projeto, podemos lançar o que chamamos de nova <strong>versão</strong> do projeto.
+
+Esse é um dos trabalhos do Git, ser um <strong>controlador de versão</strong>. Isso facilita, por exemplo, retornar facilmente no tempo para recuperar um código perdido, ou testar se antigamente determinado erro já ocorria.
 
 <h2>Árvore do projeto</h2>
+
+<span>
+	<span style="margin-right: 30px">
+		![real seed][image real_seed]
+	</span>
+	<span>
+		![git seed][image git_seed]
+	</span>
+</span>
+
+Imagine como é plantar uma árvore.
+
+Você escolhe um bom local, prepara o terreno, coloca adubo, e enfim coloca a semente.
+
+Você tapa o buraco e dá uma simples regada. Você para e olha para a terra molhada no chão, vislumbrando no futuro como aquela árvore crescerá e se encherá de ramos, galhos e frutos.
+
+Passa um tempo e, depois de muito trabalho, o tronco começa a crescer. Você fica maravilhado em como ela é jovem porém já tão robusta. <strong>Robusta e flexível</strong>.
+
+<span>
+	<span style="margin-right: 30px">
+		![real trunk][image real_trunk]
+	</span>
+	<span>
+		![git trunk][image git_trunk]
+	</span>
+</span>
+
+E de repente, de forma muito rápida, os galhos começam a nascer e crescer. Se ramificam cada vez mais, e você precisa de mais pessoas para te ajudar a cuidar da árvore. Cada um cuida de uma parte, mas todos contribuem para o crescimento daquele corpo que está se formando.
+
+As tempestades começam a aparecer e chacoalham os galhos, deixando-os confusos e desordenados. Parece que tudo vai ruir, mas ela aguenta firme, e o sol aparece de novo.
+
+Então você para, e olha de novo para ela. Observa a tonalidade marcante que ela adquiriu. Orgulhoso de sua <small>e de tua</small> grandiosidade, respira fundo e pensa em todo o trabalho duro que ogirinou todos aqueles galhos.
 
 <span>
 	<span style="margin-right: 30px">
@@ -51,6 +86,15 @@ Sim, é isso tudo mesmo. Tão fácil quanto digitar 3 linhas de comando, ou dar 
 	</span>
 </span>
 
+Claro que os galhos dessa árvore que você plantou são meio doidos. Porque eles sempre acabam se juntando ao tronco de novo depois de um tempo, uns juntam com outros, ou até mesmo o tronco acaba se juntando com um determinado galho.
+
+Claro, essa é a <strong>árvore do seu projeto</strong>. Me perdoem pela historinha, mas eu quis poetizar um pouco para mostrar como o Git trata cada elemento de um projeto, pensando nos detalhes e tornando tudo muito natural para você.
+
+Se você sabe como é uma árvore, tudo será simples para você.
+
+<h2>Árvore do projeto <small>de verdade</small></h2>
+
+A árvore
 
 
 ## fluxo normal:
@@ -77,5 +121,9 @@ Sim, é isso tudo mesmo. Tão fácil quanto digitar 3 linhas de comando, ou dar 
 
 
 [image coffee_rain]: /blog/src/img/2016-01-26-coffee-and-rain.jpg
+[image real_seed]: /blog/src/img/2016-01-26-real-seed.jpg
+[image git_seed]: /blog/src/img/2016-01-26-git-seed.png
+[image real_trunk]: /blog/src/img/2016-01-26-real-trunk.jpg
+[image git_trunk]: /blog/src/img/2016-01-26-git-trunk.png
 [image real_tree]: /blog/src/img/2016-01-26-real-tree.jpg
 [image git_tree]: /blog/src/img/2016-01-26-git-tree.png
