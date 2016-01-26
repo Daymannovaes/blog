@@ -15,9 +15,43 @@ Você provavelmente deve imaginar que muito pesquisei sobre Git antes de escreve
 
 Porém, depois de achar um mundo de bons artigos, pensei o que faria o meu post único, de forma a manter a identidade do blog e, mais importante, que acrescentasse algo para o leitor.
 
-E finalmente, depois de muito pensar <small>mentira, nem pensei tanto assim</small>, decidi seguir um rumo um pouco diferente. Toda a explicação dada aqui, será 
+E finalmente, depois de muito pensar <small>mentira, nem pensei tanto assim</small>, decidi seguir um rumo um pouco diferente. Este <strong>não será um post técnico</strong>, mas mais <strong>subjetivo</strong> e escrito com minhas próprias palavras e as abstrações que consegui fazer do funcionamento do Git.
 
-Portanto, <strong>esse não será</strong>
+<h2>Versionador</h2>
+
+IMG DO PENDRIVE VS. GIT
+
+Imagine antigamente, antes dos <i>cloud services</i> <small>dropbox, box, drive, etc</small> existirem, como um time de desenvolvedor fazia para compartilhar as alterações feita por cada um no projeto?
+
+Bom, se não compartilhavam por disquete ou CD, era no mínimo por pendrive, espetando o dito cujo em cada computador, juntando as alterações manualmente nos arquivos já existentes e depois anotando, talvez no notepad ou em um papel, o que mudou nessa nova <strong>versão</strong>.
+
+Bom, com os serviços de compartilhamento atual tudo ficou claramente mais fácil e natural. Basta colocar um projeto na nuvem, dar acesso a todos da equipe, e <i>voilà</i>, teremos mais ou menos um controle sobre todas as alterações, de forma um pouco mais fácil do que ficar espetando o bom e velho pendrive.
+
+Tudo <strong>quase</strong> lindo.
+
+Queremos uma ferramenta que nos dê controle <strong>total</strong> sobre todas as alterações, com informações contextuais que digam o que foi alterado, onde, quando, por quem, e porquê <small>ufa!</small>. Também queremos fazer isso da forma mais simples o possível, de forma que, por exemplo, eu consiga migrar entre diferentes dispositivos e sempre ter a <strong>versão</strong> mais atual do projeto.
+
+Queremos atualizar, alterar, e gerenciar nossos projetos e nossa equipe de <a href="/blog/como-programar-de-qualquer-lugar-do-mundo/">qualquer lugar do mundo</a>, como citei nesse meu último post.
+
+<span class="center-horizontal">
+	![coffee and rain][image coffee_rain]
+</span>
+
+Sim, é isso tudo mesmo. Tão fácil quanto digitar 3 linhas de comando, ou dar 3 cliques, ou tomar um chocolate quente em um dia chuvoso.
+
+
+<h2>Árvore do projeto</h2>
+
+<span>
+	<span style="margin-right: 30px">
+		![real tree][image real_tree]
+	</span>
+	<span>
+		![git tree][image git_tree]
+	</span>
+</span>
+
+
 
 ## fluxo normal:
  * git add --all
@@ -40,3 +74,8 @@ Portanto, <strong>esse não será</strong>
 
 ## student pack
  * yey
+
+
+[image coffee_rain]: /blog/src/img/2016-01-26-coffee-and-rain.jpg
+[image real_tree]: /blog/src/img/2016-01-26-real-tree.jpg
+[image git_tree]: /blog/src/img/2016-01-26-git-tree.png
