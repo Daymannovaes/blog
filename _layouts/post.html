@@ -9,19 +9,22 @@
 
   <body>
 
-	{% include header.html %}
+  {% include svg-icons.html %}
+  {% include header.html %}
     <section class="post">
       <article itemscope itemtype="http://schema.org/BlogPosting">
-      	
-      	{% include header-post.html %}
-      	
-      	<section itemprop="articleBody">
-      		{{ content }}
-      	</section>
+        
+        {% include header-post.html %}
+        
+        <section itemprop="articleBody">
+          {{ content }}
+        </section>
       </article>
 
       {% include mailchimp/form-footer.html %}
 
+      {% include share.html %}
+      
       {% if page.comments != false %}
         <hr />
 
@@ -31,6 +34,7 @@
     </section>
 
     {% include footer.html %}
+
 
   </body>
 

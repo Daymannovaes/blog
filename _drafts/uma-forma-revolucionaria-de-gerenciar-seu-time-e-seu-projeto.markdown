@@ -5,6 +5,7 @@ image_list: /blog/src/img/2016-01-24-forma-revolucionaria-de-gerenciar-seu-time-
 comments: true
 description: >
     Você conhece o Git? Para alguns é comum. Para outros nem tanto. Porém tenho certeza que, em ambos os casos, você vai ficar impressionado com o que ele pode fazer por você.
+twitter_text: Esse post conta (e conta muito bem) o melhor do Git!
 ---
 
 <q> Revolucionário? O Git? Que exagero! </q> Você pode dizer.
@@ -60,7 +61,7 @@ Você escolhe um bom local, prepara o terreno, coloca adubo, e enfim coloca a se
 
 Você tapa o buraco e dá uma simples regada. Você para e olha para a terra molhada no chão, vislumbrando no futuro como aquela árvore crescerá e se encherá de ramos, galhos e frutos.
 
-Passa um tempo e, depois de muito trabalho, o tronco começa a crescer. Você fica maravilhado em como ela é jovem porém já tão robusta. <strong>Robusta e flexível</strong>.
+Passa um tempo e, depois de muito trabalho, o <strong>tronco</strong> começa a crescer. Você fica maravilhado em como ela é jovem porém já tão robusta. <strong>Robusta e flexível</strong>.
 
 <span>
 	<span style="margin-right: 30px">
@@ -71,7 +72,7 @@ Passa um tempo e, depois de muito trabalho, o tronco começa a crescer. Você fi
 	</span>
 </span>
 
-E de repente, de forma muito rápida, os galhos começam a nascer e crescer. Se ramificam cada vez mais, e você precisa de mais pessoas para te ajudar a cuidar da árvore. Cada um cuida de uma parte, mas todos contribuem para o crescimento daquele corpo que está se formando.
+E de repente, de forma muito rápida, os <strong>galhos</strong> começam a nascer e crescer. Se ramificam cada vez mais, e você precisa de mais pessoas para te ajudar a cuidar da árvore. Cada um cuida de uma parte, mas todos contribuem para o crescimento daquele corpo que está se formando.
 
 As tempestades começam a aparecer e chacoalham os galhos, deixando-os confusos e desordenados. Parece que tudo vai ruir, mas ela aguenta firme, e o sol aparece de novo.
 
@@ -94,14 +95,58 @@ Se você sabe como é uma árvore, tudo será simples para você.
 
 <h2>Árvore do projeto <small>de verdade</small></h2>
 
-A árvore
+Bom, o Git mantém um <strong>repositório</strong> do projeto que guarda toda essa árvore de alterações. E <strong>primeiramente</strong>, tudo isso funciona de maneira <strong>local</strong>, na sua máquina.
 
+<h4>commit</h4>
+Cada alteração <small>ou um conjunto de</small> é salvo no repositório através do conhecido comando `git commit`. <i>Commit</i> é algo como enviar, entregar, executar.
 
-## fluxo normal:
- * git add --all
- * git commit -m "message"
- * git pull
- * git push
+E cada commit deve possuir uma mensagem <strong><u>auto</u>-explicativa</strong> dizendo o foi alterado, como
+
+ * "novo layout para os posts"
+ * "melhorando organização do css"
+ * "consertando bug de imagem em mobile"
+
+Aos poucos, vai se formando o <strong>tronco</strong> do seu projeto.
+
+<span class="two-images join">
+	<span>
+		![git trunk_2][image git_trunk_2]
+	</span>
+	<span>
+		![git commit][image git_commit]
+	</span>
+</span>
+
+Mas na prática, como é feito?
+
+Suponha que você tenha alterado vários arquivos em duas pastas totalmente diferentes do seu projeto, e você quer criar um commit apenas com as alterações de uma pasta, e depois da outra, para manter as coisas organizadas.
+
+<h4>add</h4>
+Então, o Git tem um estágio antes do `commit`, que é o `add`. O, também famoso, comando `git add`, adiciona os arquivos desejados em uma espécie de <i>repositório temporário</i>, que o Git chama de <i>index</i>, ou índice.
+
+O fluxo seria mais ou menos assim:
+
+ * `git add caminho/para/arquivo.txt`
+ * `git commit -m "comentario explicativo"`
+
+O commit então manda <strong>todos</strong> os arquivos <small><img src="/blog/src/img/X-All-The-Y-icon.jpg"></small> adicionados no index para o repositório.
+
+<span class="center-horizontal">
+	![git push][image git_push]
+</span>
+
+<h4>status</h4>
+Um comando muito também útil e usado é o <small>deixa eu adivinhar, famoso?</small> famoso comando `git status`. Na imagem você pode ver que <span class="highlight pre"><span class="na">verde</span></span> é o que está adicionado e pronto para o commit. O que está em <span class="highlight pre"><span class="nt">vermelho</span></span> é um arquivo que foi alterado, alteração que pode facilmente ser desfeita com o <small>um pouco menos famoso</small> comando `git checkout caminho/para/arquivo.txt`.
+
+<h4>push</h4>
+Por fim entra a <strong>nuvem</strong>, ou <strong>remote</strong>, um repositório online no qual nosso repositório local está associado.
+
+De adianta ter todo esse controle sozinho e não poder compartilhar com outras pessoas? Afinal, essa é uma das grandes felicidades da vida, não? Compartilhar momentos.
+
+<p class="share-inner">
+	E posts também, aproveita pra compartilhar com os amigos se está gostando do texto: {% include share-icons.html %}
+</p>
+
 
 ## comandos ~mágicos
  * cherry pick (http://think-like-a-git.net/sections/rebase-from-the-ground-up/cherry-picking-explained.html)
@@ -119,6 +164,12 @@ A árvore
 ## student pack
  * yey
 
+Nesse post você vai aprender sobre:
+Fluxo normal do Git
+Comandos "mágicos"
+Diferenças e semelhanças entre Git e GitHub
+Pacote grátis para estudantes!
+
 
 [image coffee_rain]: /blog/src/img/2016-01-26-coffee-and-rain.jpg
 [image real_seed]: /blog/src/img/2016-01-26-real-seed.jpg
@@ -127,3 +178,6 @@ A árvore
 [image git_trunk]: /blog/src/img/2016-01-26-git-trunk.png
 [image real_tree]: /blog/src/img/2016-01-26-real-tree.jpg
 [image git_tree]: /blog/src/img/2016-01-26-git-tree.png
+[image git_trunk_2]: /blog/src/img/2016-01-26-git-trunk-2.png
+[image git_commit]: /blog/src/img/2016-01-26-git-commit.png
+[image git_push]: /blog/src/img/2016-01-26-git-push.png

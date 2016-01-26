@@ -111,4 +111,56 @@
             text-shadow: 0px 2px 0px #ddd;
         }
     }
+    .share, .share-inner {
+        &:before, &:after {
+            content: '';
+            display: table
+        }
+
+        &:after {
+            clear: both
+        }
+
+        a {
+            text-decoration: none;
+            border: none;
+
+            &:hover svg {
+                fill: $color-blue;
+            }
+        }
+    }
+
+    .share {
+        @include container(0.6);
+
+        text-align: center;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+
+        svg {
+            margin: .938rem;
+            width: 35px;
+            height: 35px
+        }
+    }
+
+    .share-inner {
+        border-left: 3px solid $color-blue;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        border-radius: 3px;
+        @include transition(100ms border-left);
+
+        &:hover {
+            border-left: 3px solid $color-dark-blue;
+            @include transition(300ms border-left);
+        }
+
+        svg {
+            margin: 10px 10px 0 10px;
+            width: 20px;
+            height: 20px;
+        }
+    }
 }
