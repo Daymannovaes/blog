@@ -23,6 +23,7 @@
     {% endif %}
 
 <!-- Social: Facebook / Open Graph -->
+    <meta property="fb:app_id" content="1678065242410322" />
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     {% if page.image_list %}
