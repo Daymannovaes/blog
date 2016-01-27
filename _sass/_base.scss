@@ -77,8 +77,11 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.line-through, .line-crossed {
+.line-through, .line-crossed, del {
     text-decoration: line-through;
+}
+ins {
+    text-decoration: none;
 }
 
 .two-images, .two-columns {
