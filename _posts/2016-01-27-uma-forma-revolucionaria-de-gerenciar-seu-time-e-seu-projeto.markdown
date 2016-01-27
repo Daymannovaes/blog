@@ -37,7 +37,9 @@ Queremos atualizar, alterar, e gerenciar nossos projetos e nossa equipe de <a hr
 	![coffee and rain][image coffee_rain]
 </span>
 
-Sim, é isso tudo mesmo. Tão fácil quanto digitar 3 linhas de comando, ou dar 3 cliques, ou tomar um chocolate quente em um dia chuvoso.
+<strong>É para isso que o Git serve.</strong>
+
+E sim, é isso tudo mesmo. Tão fácil quanto digitar 3 linhas de comando, ou dar 3 cliques, ou tomar um chocolate quente em um dia chuvoso.
 
 Desde o início do projeto, temos esse controle todo. No começo pode parecer complexo, mas rapidamente tudo se torna <i>tão natural quanto a luz do dia</i> <small>mas que preguiça boa, me deixa aqui atoa <i class="fa fa-music"></i></small>. E a cada alteração, ou conjunto de alterações feitas ao projeto, podemos lançar o que chamamos de nova <strong>versão</strong> do projeto.
 
