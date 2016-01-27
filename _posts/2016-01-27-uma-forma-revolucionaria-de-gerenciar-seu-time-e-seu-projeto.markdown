@@ -25,7 +25,7 @@ Imagine antigamente, antes dos <i>cloud services</i> <small>dropbox, box, drive,
 
 Bom, se não compartilhavam por disquete ou CD, era no mínimo por pendrive, espetando o dito cujo em cada computador, juntando as alterações manualmente nos arquivos já existentes e depois anotando, talvez no notepad ou em um papel, o que mudou nessa nova <strong>versão</strong>.
 
-Bom, com os serviços de compartilhamento atuais tudo ficou claramente mais fácil e natural. Basta colocar um projeto na nuvem, dar acesso a todos da equipe, e <i>voilà</i>, teremos mais ou menos um controle sobre todas as alterações e de forma um pouco mais fácil do que ficar espetando o bom e velho pendrive.
+Bom, com os serviços de compartilhamento atuais tudo ficou mais fácil e natural. Basta colocar um projeto na nuvem, dar acesso a todos da equipe, e <i>voilà</i>, teremos mais ou menos um controle sobre todas as alterações e de forma um pouco mais fácil do que ficar espetando o bom e velho pendrive.
 
 Tudo <strong>quase</strong> lindo.
 
