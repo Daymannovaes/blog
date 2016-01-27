@@ -18,9 +18,8 @@ Porém, depois de achar um mundo de bons artigos, pensei o que faria o meu post 
 
 E finalmente, depois de muito pensar <small>mentira, nem pensei tanto assim</small>, decidi seguir um rumo um pouco diferente. Este <strong>não será um post técnico</strong>, mas mais <strong>subjetivo</strong> e escrito com minhas próprias palavras e as abstrações que consegui fazer do funcionamento do Git.
 
-<h2>Versionador</h2>
-
-<h1 style="color:red">IMG DO PENDRIVE VS. GIT</h1>
+<h2 class="image-title">Versionador</h2>
+![pendrive versus git][image pendrive_git]
 
 Imagine antigamente, antes dos <i>cloud services</i> <small>dropbox, box, drive, etc</small> existirem, como um time de desenvolvedores fazia para compartilhar as alterações feita por cada um no projeto?
 
@@ -283,6 +282,7 @@ Se achou ruim, para te compensar eu vou parar de enrolar e acabar o post aqui me
 
 <small class="clear">tchau</small>.
 
+[image pendrive_git]: /blog/src/img/2016-01-26-pendrive-vs-git.jpg
 [image coffee_rain]: /blog/src/img/2016-01-26-coffee-and-rain.jpg
 [image real_seed]: /blog/src/img/2016-01-26-real-seed.jpg
 [image git_seed]: /blog/src/img/2016-01-26-git-seed.png
