@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Uma forma revolucionária de gerenciar seu time e seu projeto"
-image_list: /blog/src/img/2016-01-24-forma-revolucionaria-de-gerenciar-seu-time-e-seu-projeto.png
+image_list: /blog/src/img/2016-01-26-real-tree-card.jpg
 comments: true
 description: >
     Você conhece o Git? Para alguns é comum. Para outros nem tanto. Porém tenho certeza que, em ambos os casos, você vai ficar impressionado com o que ele pode fazer por você.
