@@ -150,7 +150,7 @@ Basta criar um branch novo `git branch branch_novo`, mudar para esse branch `git
 <h4>push</h4>
 Por fim entra a <strong>nuvem</strong>, ou <strong>remote</strong>, um repositório online no qual nosso repositório local está associado.
 
-De adianta ter todo esse controle sozinho e não poder compartilhar com outras pessoas? Afinal, essa é uma das grandes felicidades da vida, não? Compartilhar momentos.
+De que adianta ter todo esse controle sozinho e não poder compartilhar com outras pessoas? Afinal, essa é uma das grandes felicidades da vida, não? Compartilhar momentos.
 
 <p class="share-inner">
 	E posts também, aproveita pra compartilhar com os amigos se está gostando do texto: {% include share-icons.html %}
