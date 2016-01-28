@@ -21,6 +21,8 @@ E finalmente, depois de muito pensar <small>mentira, nem pensei tanto assim</sma
 <h2 class="image-title">Versionador</h2>
 ![pendrive versus git][image pendrive_git]
 
+<small>créditos da imagem à <a href="https://www.facebook.com/profile.php?id=100004309142813">Bruna &hearts;</a></small>
+
 Imagine antigamente, antes dos <i>cloud services</i> <small>dropbox, box, drive, etc</small> existirem, como um time de desenvolvedores fazia para compartilhar as alterações feita por cada um no projeto?
 
 Bom, se não compartilhavam por disquete ou CD, era no mínimo por pendrive, espetando o dito cujo em cada computador, juntando as alterações manualmente nos arquivos já existentes e depois anotando, talvez no notepad ou em um papel, o que mudou nessa nova <strong>versão</strong>.
