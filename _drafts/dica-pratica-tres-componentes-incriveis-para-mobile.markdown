@@ -80,7 +80,7 @@ E como esse texto é inserido com CSS, pode ser facilmente alterado com o uso de
 {% endhighlight %}
 
 
-Esse código diz que a parte "Novaes" só será mostrada para telas maiores que tamanho média (<strong>m</strong>e<strong>d</strong>ium), e "Dayman" apenas para telas maiores que tamanho pequeno (<strong>sm</strong>all).
+O <span class="highlight pre"><span class="k">&</span></span> no Sass referencia o seletor pai, no caso, o <span class="highlight pre"><span class="nc">.nome</span></span>. Portanto, esse código diz que a parte "Novaes" só será mostrada para telas maiores que tamanho média (<strong>m</strong>e<strong>d</strong>ium), e "Dayman" apenas para telas maiores que tamanho pequeno (<strong>sm</strong>all).
 
 O compilado fica assim:
 
@@ -101,7 +101,7 @@ E o resultado:
 
 Eu uso essa técnica no meu site pessoal, na seção de habilidade, onde mostra várias tecnologias com o nome a uma imagem. O nome é incluído desta forma, sendo que em dispositivos mobiles, o texto some e ficam apenas as imagens.
 
-<span class="center-horizontal">
+<span class="center-horizontal p">
   <img src="/blog/src/img/2016-01-30-gif-skills.gif" alt="habilidades responsivas">
 </span>
 
@@ -142,6 +142,38 @@ A definição do mixin então fica assim:
   }
 }
 {% endhighlight %}
+
+Calma que vou explicar. Ta vendo a parte amarela desse código aqui?
+
+<div class="highlight pre p"><span class="si">#{</span><span class="nf">map-get</span><span class="p">(</span><span class="nv">$breakpoints</span><span class="o">,</span> <span class="nv">$breakpoint</span><span class="p">)</span><span class="si">}</span></div>
+
+Então, esse é a sintaxe de <i>interpolation</i> do Sass. Interpolation significa algo como trocar, substituir. Significa que, no caso, o Sass pega o valor da chave escolhida (xs, sm, md...) e colocar na propriedade de `min-width`.
+
+E dentro das chaves tem um <span class="highlight pre"><span class="k">@content</span></span>, que basicamente pega o conteúdo que você definiu na <strong>chamada</strong> do mixin, e coloca alí.
+
+Exemplificando:
+
+{% highlight scss %}
+@include media-query(xs) {
+  article {
+      max-width: 350px;
+  }
+}
+{% endhighlight %}
+
+Compila para:
+
+{% highlight scss %}
+@media (min-width: 22em) {
+  article {
+      max-width: 350px;
+  }
+}
+{% endhighlight %}
+
+É <strong>simples</strong>, mas <strong>muito útil</strong> para agilizar nosso desenvolvimento.
+
+E se você quiser fazer um mixin que, ao invés do `min-width` da tela utilize o `max-width`, é simples, basta trocar essa propriedade no mixin, usar o mesmo valor do breakpoint mas <strong>subtrair um centésimo</strong>, para que as duas não se confudam quando o tamanho de tela for exatamente aquele.
 
 {% highlight scss %}
 @mixin media-query-down($breakpoint) {
