@@ -7,6 +7,7 @@ description: >
   Por algum<small>s</small> motivo<small>s</small> resolvi fazer um blog.
   Talvez por não ter nada para fazer, mas alguns amigos me influenciaram e agradeço o apoio.
   Já que estou aqui, porque não compartilhar como eu fiz o dito cujo <small>só a parte legal</small>?
+twitter_text: Muito legal ver como é fácil, simples e legal criar um blog!
 ---
 
 Olá, se você chegou até aqui, você está <span class="line-crossed">louco</span> com sorte. Este é um post que explica por alto como fiz este blog. <small>é um "clássico" começar assim né?</small>

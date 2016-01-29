@@ -5,6 +5,7 @@ image_list: /blog/src/img/2016-01-09-como-fiz-meu-blog-em-2-dias-parte-2.jpg
 comments: true
 description: >
   Já conhecia essas duas ferramentas, mas aprendi algumas coisas legais durante o desenvolvimento do blog e gostaria de mostrar para vocês! Olha aqui e me conte o que achou.
+twitter_text: Muito legal ver como é fácil, simples e legal criar um blog!
 ---
 <style type="text/css">
   /* -- applyed only to this post -- */

@@ -6,6 +6,7 @@ comments: true
 description: >
   Um pintor não pode ser &quot;escravo&quot; de suas ferramentas, nem nenhum outro profissional.
   Você, programador, é um escravo das suas? O que você faz para buscar sua independência?
+twitter_text: Ótimo post que desconstrói um pouco sobre a necessidade de computador para o desenvolvedor!
 ---
 
 Você já pintou algum quadro antes?
