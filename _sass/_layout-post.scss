@@ -168,18 +168,3 @@
         color: $color-yellow;
     }
 }
-
-
-.nome {
-    margin-bottom: 30px;
-    @include media-query(md) {
-        &:after {
-            content: ' Novaes';
-        }
-    }
-    @include media-query(sm) {
-        &:before {
-            content: 'Dayman ';
-        }
-    }
-}
