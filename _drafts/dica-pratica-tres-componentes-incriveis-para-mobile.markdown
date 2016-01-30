@@ -5,7 +5,7 @@ image_list: /blog/src/img/2016-01-30-tres-componentes-rapidos.png
 comments: true
 description: >
   Essa #dicaPrática mostra algumas técnicas e componentes capazes de te dar insights para elevar a responsividade de seu site à outro nível.
-twitter_text: Esse post conta (e conta muito bem) o melhor do Git!
+twitter_text: Adorei essas dicas de CSS! Ótimo post, recomendo!
 ---
 
 <style type="text/css">
