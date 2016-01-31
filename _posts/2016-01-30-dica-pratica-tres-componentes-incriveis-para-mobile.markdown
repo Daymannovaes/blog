@@ -331,7 +331,7 @@ O <strong>resultado final</strong> fica assim:
 
 É isso, se você gostou, compartilha e se inscreva na lista de email pra receber mais dicas práticas como essa.
 
-E para garantir que você não vai ficar de brincando na tomateira, aqui vai uma foto de um tomate:
+E para garantir que você não vai ficar de brincadeira na tomateira, aqui vai uma foto de um tomate:
 
 <div class="center-horizontal">
   <img src="/blog/src/img/2016-01-30-tomate.jpg" alt="tomate">
