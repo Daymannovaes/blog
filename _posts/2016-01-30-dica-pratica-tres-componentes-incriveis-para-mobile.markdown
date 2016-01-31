@@ -2,6 +2,7 @@
 layout: post
 title:  "<span class='tag'>#DicaPrática</span> Três técnicas e componentes incríveis para o seu site ficar (ainda mais!) responsivo"
 image_list: /blog/src/img/2016-01-30-tres-componentes-rapidos.png
+color_list: E0AC18
 comments: true
 description: >
   Essa #dicaPrática mostra algumas técnicas e componentes capazes de te dar insights para elevar a responsividade de seu site à outro nível.
@@ -21,11 +22,11 @@ twitter_text: Adorei essas dicas de CSS! Ótimo post, recomendo!
 
 Como você deve ter percebido pelo título <small>se você não percebeu, por favor procure um oculista rápido! <small>e depois volte pra ler meu blog &hearts;</small></small>, tem uma parte amarela alí indicando que esse post:
 
- * Fará parte de uma série/hastag/sequência intitulada de <strong>dica prática</strong>
+ * Fará parte de uma série/hastag/sequência intitulada de <strong>Dica Prática</strong>
  * Será mais curto e direto, facilitando a leitura
  * Será prático! Facilitando a sua implementação
 
-Se <del>você estava em coma</del> <ins>não sabe o que significa um design responsivo</ins>, eu falo um pouco sobre isso no meu <a href="/blog/como-fiz-meu-blog-em-2-dias-parte-2/">segundo post.</a> Mas é basicamente um design que se adequa à diferentes tipos de tela.
+Se você <del>estava em coma</del> <ins>não sabe o que significa um design responsivo</ins>, eu falo um pouco sobre isso no meu <a href="/blog/como-fiz-meu-blog-em-2-dias-parte-2/">segundo post.</a> Mas é basicamente um design que se adequa à diferentes tipos de tela.
 
 Os exemplos mostrados aqui serão feitos em <strong>Sass</strong> porque <del>eu quero e pronto</del> <ins>facilita muito nosso trabalho</ins>.
 
@@ -109,9 +110,9 @@ Eu uso essa técnica no meu site pessoal, na seção de habilidade, onde mostra 
 
 Os `mixins` do Sass são ótimos, pois são funções que podemos criar para executar e compilar algum código CSS.
 
-Misturando um pouco com a ideia de <strong>breakpoints</strong> do Bootstrap <small>olha no segundo post</small>, podemos criar um mixin que utiliza disso para facilitar e padronizar o desenvolvimento.
+Misturando um pouco com a ideia de <strong>breakpoints</strong> do Bootstrap, podemos criar um mixin que utiliza disso para facilitar e padronizar o desenvolvimento.
 
-Você deve ter percebido que usei no exemplo anterior o <span class="highlight pre"><span class="k">@include</span> <span class="nd">media-query</span><span class="p">(..)</span></span>, é exatamente ele que vou explicar agora.
+Você deve ter percebido que usei no exemplo anterior o <span class="highlight pre"><span class="k">@include</span> <span class="nd">media-query</span><span class="p">(..)</span></span>, e é exatamente ele que vou explicar agora.
 
 Primeiro, precisamos definir as variáveis que definem os tamanhos de tela que queremos, isto é, os <strong>breakpoints</strong>.
 
@@ -201,7 +202,7 @@ Digamos que você esteja trabalhando com Bootstrap e deseja um componente que em
 </div>
 {% endhighlight %}
 
-A classe `.component-skill` seria usada para adicionar estilos diferentes. Mas ao invés de "poluir" o HTML, podemos torná-lo mais semântica dessa forma:
+A classe `.component-skill` seria usada para adicionar estilos diferentes. Mas ao invés de "poluir" o html, podemos torná-lo mais semântico dessa forma:
 
 {% highlight scss %}
 .component-skill {

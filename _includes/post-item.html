@@ -1,9 +1,10 @@
-<div class="image wow fadeIn" style="background-image: url({{ post.image_list }})">
+<div class="image wow fadeIn" style="background-image: url({{ post.image_list }}); background-color: #{{ post.color_list }};">
 	<a href="{{ post.url | prepend: site.baseurl }}"></a>
 </div>
 <div class="body">
 	<h2>
 	  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		
 	</h2>
 
 	<meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
