@@ -11,13 +11,14 @@ twitter_text: Adorei essas dicas de CSS! Ótimo post, recomendo!
 
 <style type="text/css">
   .nome {
-  margin-bottom: 30px; }
-  @media (min-width: 48em) {
-    .nome:after {
-      content: ' Novaes'; } }
-  @media (min-width: 34em) {
-    .nome:before {
-      content: 'Dayman '; } }
+    margin-bottom: 30px;
+  }
+  .nome:after {
+    content: ' Novaes';
+  }
+  .nome:before {
+    content: 'Dayman ';
+  }
 </style>
 
 Como você deve ter percebido pelo título <small>se você não percebeu, por favor procure um oculista rápido! <small>e depois volte pra ler meu blog &hearts;</small></small>, tem uma parte amarela alí indicando que esse post:
@@ -81,7 +82,7 @@ E como esse texto é inserido com CSS, pode ser facilmente alterado com o uso de
 {% endhighlight %}
 
 
-O <span class="highlight pre"><span class="k">&</span></span>, no Sass, referencia o seletor pai, no caso, o <span class="highlight pre"><span class="nc">.nome</span></span>. Portanto, esse código diz que a parte "Novaes" só será mostrada para telas maiores que tamanho média (<strong>m</strong>e<strong>d</strong>ium), e "Dayman" apenas para telas maiores que tamanho pequeno (<strong>sm</strong>all).
+O <span class="highlight pre"><span class="k">&</span></span>, no Sass, referencia o seletor pai, no caso, o <span class="highlight pre"><span class="nc">.nome</span></span>. Portanto, esse código diz que a parte "Novaes" só será mostrada para telas maiores que tamanho médio (<strong>m</strong>e<strong>d</strong>ium), e "Dayman" apenas para telas maiores que tamanho pequeno (<strong>sm</strong>all).
 
 O compilado fica assim:
 
@@ -100,7 +101,7 @@ E o resultado:
   <img src="/blog/src/img/2016-01-30-gif-nome.gif" alt="nome responsivo" style="height: 25px;">
 </span>
 
-Eu uso essa técnica no meu site pessoal, na seção de habilidade, onde mostra várias tecnologias com o nome a uma imagem. O nome é incluído desta forma, sendo que em dispositivos mobiles, o texto some e ficam apenas as imagens.
+Eu uso essa técnica no meu site pessoal, na seção de habilidade, onde mostra várias tecnologias com o nome e uma imagem. O nome é incluído desta forma, sendo que em dispositivos mobiles, o texto some e ficam apenas as imagens.
 
 <span class="center-horizontal p">
   <img src="/blog/src/img/2016-01-30-gif-skills.gif" alt="habilidades responsivas">
