@@ -28,7 +28,9 @@ E considere os <strong>mistérios insolúveis</strong> como liçensa poética.
 
 Não que eu ache que eu chegue aos pés desse maravilhoso personagem, mas eu estava <strong>falando de mim</strong>, nesse exato instante, enquanto escrevo esse texto.
 
-Nesse texto, vou contar da minha primeira experiência profissional e como ela me ajudou a desenvolver a habilidade de encontrar erros em códigos, com o auxílio de incríveis ferramentas de debug. Pois era esse o meu trabalho, <strong>encontrar e consertar erros de usabilidade</strong> no software usado pela empresa.
+Nesse texto, vou contar da minha primeira experiência profissional e como ela me ajudou a desenvolver a <del><small>estranha</small></del> habilidade de encontrar erros em códigos, com o auxílio de incríveis ferramentas de debug. Meu trabalho era <strong>encontrar e consertar erros de usabilidade</strong> no software usado pela empresa, e isso era bem parecido com um trabalho investigativo, pois, encontrar esses erros nem sempre é tão fácil.
+
+E em vários momentos eu me sentia um verdadeiro Sherlock Holmes ao solucionar mais um misterioso bug.
 
 <h2>
   Porque isso se assemelha a um trabalho investigativo
