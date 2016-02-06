@@ -78,10 +78,37 @@ Não porque é demorado, mas porque é minucioso, e precisamos de atenção para
 
 Vamos supor, por exemplo, que você queira criar um campo de texto que tenha seu conteúdo copiado, em ~tempo real~ para outro lugar. Assim como o exemplo abaixo.
 
-@@@@ EXEMPLO AQUI @@@@
+<div style="text-align:center">
+  <div>
+  	<input type="text" id="input-exemple-1" placeholder="Digite aqui..." />
+  </div>
+  <div>
+  	<span id="span-exemple-1" style="border: 1px solid black; padding: 0px 6px; display: inline-block; min-height: 34px; margin-top: 10px;"></span> </div>
+</div>
+<script type="text/javascript">
+	var input = document.getElementById('input-exemple-1');
+	var span = document.getElementById('span-exemple-1');
 
-Você cria o input, cria o código e quando vai testar... Não funciona. Qual o primeiro passo para tentar resolver? Isso mesmo, ter calma. 
+	input.oninput = function() {
+		span.innerHTML = this.value;
+	}
 
+
+</script>
+
+Você cria o input, cria o código e quando vai testar... Não funciona. Meu deus, porque será?! Como vamos resolver esse problema? Isso mesmo, primeiro, calma. 
+
+Há <strong>infinitas</strong> causas para não ter funcionado, umas delas:
+
+ * Seu browser está com algum problema de renderização
+ * Os pixels da tela do seu computador pararam de funcionar exatamente na área que deveria aparecer o texto
+ * Você está sonhando e a lógica não funciona direito
+ * O código que te ensinaram na faculdade/curso na verdade era falso, e não funciona no mundo real
+ * Formigas comeram uma parte do circuito do seu computador que impediu a comunicação com o input
+
+ São explicações completamente improváveis, mas poderiam muito bem acontecer, mas ainda assim são muito improváveis, por isso devemos descartá-las e pensar em algo mais provável.
+
+ Essa reflexão é importante pois, há momentos que simplesmente não <strong>temos ideia</strong> de porque algo não funciona.
 
 
 [image sherlock_221b]: /blog/src/img/2016-02-15-sherlock-221b.jpg
