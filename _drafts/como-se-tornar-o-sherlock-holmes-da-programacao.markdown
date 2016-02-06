@@ -66,6 +66,23 @@ Assim como o corpo humano, um projeto ou um código também dá varios sinais so
 
 <strong>Resolva a causa, e a consequência estará</strong> <small>quase</small> <strong>resolvida</strong>.
 
+<h2>Um pouco da metodologia</h2>
+
+Para achar a causa de um problema primeiramente precisamos ter calma. 
+
+Calma. 
+
+Muita calma. 
+
+Não porque é demorado, mas porque é minucioso, e precisamos de atenção para, principalmente, <strong>não tirarmos conclusões precipitadas</strong>. Por isso, calma. 
+
+Vamos supor, por exemplo, que você queira criar um campo de texto que tenha seu conteúdo copiado, em ~tempo real~ para outro lugar. Assim como o exemplo abaixo.
+
+@@@@ EXEMPLO AQUI @@@@
+
+Você cria o input, cria o código e quando vai testar... Não funciona. Qual o primeiro passo para tentar resolver? Isso mesmo, ter calma. 
+
+
 
 [image sherlock_221b]: /blog/src/img/2016-02-15-sherlock-221b.jpg
 [image enxaqueca]: /blog/src/img/2016-02-15-enxaqueca.jpg
