@@ -24,7 +24,7 @@ Troque <strong>Baker Street</strong> por <strong>Belo Horizonte</strong>.
 
 Troque <strong>estudos do crime</strong> por <strong>estudos de tecnologia</strong>.
 
-E considere os <strong>mistérios insolúveis</strong> como liçensa poética.
+E considere os <strong>mistérios insolúveis</strong> como licença poética.
 
 Não que eu ache que eu chegue aos pés desse maravilhoso personagem, mas eu estava <strong>falando de mim</strong>, nesse exato instante, enquanto escrevo esse texto.
 
@@ -32,9 +32,9 @@ Nesse texto, vou contar da minha primeira experiência profissional e como ela m
 
 E em vários momentos eu me sentia um verdadeiro Sherlock Holmes ao solucionar mais um misterioso bug.
 
-<h2>
-  Por que isso se assemelha a um trabalho investigativo
-</h2>
+<h4 class="image-title">
+  Por que isso se assemelha a um trabalho investigativo <i class="fa fa-search"></i>
+</h4>
 
 Seção que explica RAPIDAMENTE a semelhança de debug com investigação
 
@@ -96,7 +96,7 @@ Vamos supor, por exemplo, que você queira criar um campo de texto que tenha seu
 
 </script>
 
-Você cria o input, cria o código e quando vai testar... Não funciona. Meu deus, porque será?! Como vamos resolver esse problema? Isso mesmo, primeiro, calma. 
+Você cria o input, cria o código e quando vai testar... Não funciona. Meu deus, porque será?! Como vamos resolver esse problema? Calma amigo. Lembra? Calma. 
 
 Há <strong>infinitas</strong> causas para não ter funcionado, umas delas:
 
@@ -104,12 +104,28 @@ Há <strong>infinitas</strong> causas para não ter funcionado, umas delas:
  * Os pixels da tela do seu computador pararam de funcionar exatamente na área que deveria aparecer o texto
  * Você está sonhando e a lógica não funciona direito
  * O código que te ensinaram na faculdade/curso na verdade era falso, e não funciona no mundo real
- * Formigas comeram uma parte do circuito do seu computador que impediu a comunicação com o input
+ * Formigas comeram uma parte do circuito do seu computador que impediu a comunicação com o campo de texto
 
- São explicações completamente improváveis, mas poderiam muito bem acontecer, mas ainda assim são muito improváveis, por isso devemos descartá-las e pensar em algo mais provável.
+São explicações completamente improváveis, certo? Mas elas poderiam muito bem acontecer. Mas ainda são bem improváveis, por isso, vamos descartá-las e pensar em algo mais provável, ok?
 
- Essa reflexão é importante pois, há momentos que simplesmente não <strong>temos ideia</strong> de porque algo não funciona.
+Esse tipo de reflexão é importante, porque há momentos que simplesmente não entendemos porque algo não funciona na nossa aplicação. E isso provavelmente acontece porque estamos com algum preconceito, ou algum pré suposição nos impedindo de enxergar algo.
 
+Então esse é o primeiro ponto a ser considerado.
+
+<h3>
+  IMG DO KEEP CALM AND DON'T HAVE PRECONCEITO
+</h3>
+
+<h4>
+  Suposições prováveis e a busca reversa <i class="fa fa-search"></i>
+</h4>
+
+Para fazer suposições, primeiro precisamos conhecer um pouco do funcionamento.
+
+Sabemos que para fazer o trem dao caixa, tem os tres passos
+pegar a caixa
+pegar a outra caixa
+colocar o texto de uma na outra
 
 [image sherlock_221b]: /blog/src/img/2016-02-15-sherlock-221b.jpg
 [image enxaqueca]: /blog/src/img/2016-02-15-enxaqueca.jpg
