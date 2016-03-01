@@ -152,7 +152,7 @@ Isso é interessante para ver o tamanho e as margens dos elementos, e também pa
 
 Falando em árvore de elementos, está vendo que há várias abas no topo? E que a que está selecionada na imagem é a de <strong>elementos</strong>? Então, essa aba mostra os elementos <i>HTML</i> da página em detalhes, com o <i>CSS</i> aplicado a cada um e com possibilidade de edição em tempo real. Se você está editando o CSS de algum elemento, é o local mais indicado, pois você consegue ver em tempo real. Depois de terminado, <strong>não se esqueça</strong> de copiar o código e salvar no seu arquivo de estilo!
 
-Ufa! Só o Dev Tools é assunto para um post inteiro! Por isso gravei um vídeo rápido <small>sério, tentei ser o mais conciso <small>palavra estranha</small> o possível</small> explicando alguns conceitos legais.
+Ufa! Só o Dev Tools é assunto para um post inteiro! Por isso gravei um vídeo rápido <small>sério, tentei ser o mais conciso <small>palavra estranha</small> o possível</small> explicando alguns conceitos.
 
 
 [image sherlock_221b]: /blog/src/img/2016-02-15-sherlock-221b.jpg
