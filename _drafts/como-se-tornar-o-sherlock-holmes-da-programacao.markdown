@@ -32,14 +32,6 @@ Nesse texto, vou contar da minha primeira experiência profissional e como ela m
 
 E em vários momentos eu me sentia um verdadeiro Sherlock Holmes ao solucionar mais um misterioso bug.
 
-<h4 class="image-title">
-  Por que isso se assemelha a um trabalho investigativo <i class="fa fa-search"></i>
-</h4>
-
-Seção que explica RAPIDAMENTE a semelhança de debug com investigação
-
-Usar um pré-call falando da importância de se achar o problema para achar a solução.
-
 <h2>
   Para resolver o consequência, resolva a causa
 </h2>
@@ -92,8 +84,6 @@ Vamos supor, por exemplo, que você queira criar um campo de texto que tenha seu
 	input.oninput = function() {
 		span.innerHTML = this.value;
 	}
-
-
 </script>
 
 Você cria o input, cria o código e quando vai testar... Não funciona. Meu deus, porque será?! Como vamos resolver esse problema? Calma amigo. Lembra? Calma. 
@@ -112,20 +102,61 @@ Esse tipo de reflexão é importante, porque há momentos que simplesmente não 
 
 Então esse é o primeiro ponto a ser considerado.
 
-<h3>
-  IMG DO KEEP CALM AND DON'T HAVE PRECONCEITO
-</h3>
+<span class="center-horizontal">
+  ![keep calm][image keep calm]
+</span>
+
 
 <h4>
   Suposições prováveis e a busca reversa <i class="fa fa-search"></i>
 </h4>
 
-Para fazer suposições, primeiro precisamos conhecer um pouco do funcionamento.
+Para fazer suposições, primeiro precisamos conhecer um pouco do funcionamento. Se um prédio está prestes a ruir, por exemplo, você, programador, provavelmente não faz nenhuma ideia de por onde começar a procurar a causa.
 
-Sabemos que para fazer o trem dao caixa, tem os tres passos
-pegar a caixa
-pegar a outra caixa
-colocar o texto de uma na outra
+Sabemos que para fazer a nossa "caixa copiadora", precisamos de:
+
+ * Selecionar o elemento <small>html</small> campo de texto
+ * Selecionar a caixa que conterá o texto
+ * A cada vez que o conteúdo do campo mudar, pegar o seu valor e colocar na caixa
+
+Isso já nos ajuda a fazer algumas suposições mais prováveis de porque não funcionou, que envolvem esses passos, entre elas:
+
+ * O elemento html selecionado está errado
+ * Não estamos conseguindo "capturar" o momento que o valor muda, isto é, o evento correto do campo de texto
+ * Nossa função que troca o conteúdo está com algum erro de execução
+
+Com algumas sugestões em mente temos pelo menos um guia na hora de procurar o erro e não navegamos mais à deriva como se fossemos programadores tentando encontrar um erro na construção de um prédio.
+
+Esse caso da caixa copiadora é um exemplo simples, mas para projetos mais complexos, essa forma de pensar não nos leva diretamente para a solução do problema, mas devemos lembrar que sempre precisamos ter calma.
+
+Essa abordagem, que chamarei aqui de <strong>busca reversa</strong>, nos leva a investigar o caso pelo fim, pelas consequencias, pelo o que se manifesta, mas em direção à origem e à causa.
+
+<h2>
+  Ferramentas
+</h2>
+![tools][image tools]
+
+Uma ferramenta que todo desenvolvedor frontend deve conhecer e dominar é o <strong>Chrome Developer Tools</strong> <small>se você usa o Chrome, claro. Caso você não use, passe a usar</small>.
+
+O Dev Tools também existe nos outros browsers e, pelo o que pude perceber, tendem a seguir o mesmo padrão de funcionamento. Aqui mostrarei apenas exemplos do Chrome, mas como vivemos num país livre, pode escolher o de sua preferência.
+
+Para abrir essa maravilhosa ferramenta, você pode apertar <strong>f12</strong> ou <strong>control</strong>+<strong>shift</strong>+<strong>j</strong>. Um comando que também utilizo bastante <small>e que consequentemente abre o dev tools também</small> é o <strong>control</strong>+<strong>shift</strong>+<strong>c</strong>. Se você usou esse último comando, talvez tenha percebido que os elementos da página são destacados à medida que você vai passando o mouse. Essa é uma funcionalidade legal e chamamos de <strong>inspecionar elemento</strong>.
+
+<span class="center-horizontal">
+  ![dev tools 1][image dev tools 1]
+</span>
+
+Note no canto superior esquerdo, logo abaixo do símbolo do Chrome, e do lado do símbolo do celular, está vendo um símbolo azul? Então, esse é o símbolo do inspecionar elemento, e ele está azul indicando que está ativado.
+
+Isso é interessante para ver o tamanho e as margens dos elementos, e também para encontrá-lo na <strong>árvore de elementos</strong> dentro do dev tools, para observá-lo com mais detalhe.
+
+Falando em árvore de elementos, está vendo que há várias abas no topo? E que a que está selecionada na imagem é a de <strong>elementos</strong>? Então, essa aba mostra os elementos <i>HTML</i> da página em detalhes, com o <i>CSS</i> aplicado a cada um e com possibilidade de edição em tempo real. Se você está editando o CSS de algum elemento, é o local mais indicado, pois você consegue ver em tempo real. Depois de terminado, <strong>não se esqueça</strong> de copiar o código e salvar no seu arquivo de estilo!
+
+Ufa! Só o Dev Tools é assunto para um post inteiro! Por isso gravei um vídeo rápido <small>sério, tentei ser o mais conciso <small>palavra estranha</small> o possível</small> explicando alguns conceitos legais.
+
 
 [image sherlock_221b]: /blog/src/img/2016-02-15-sherlock-221b.jpg
 [image enxaqueca]: /blog/src/img/2016-02-15-enxaqueca.jpg
+[image keep calm]: /blog/src/img/2016-02-15-keep-calm.jpg
+[image tools]: /blog/src/img/2016-02-15-tools.jpg
+[image dev tools 1]: /blog/src/img/2016-02-15-dev-tool-1.jpg
