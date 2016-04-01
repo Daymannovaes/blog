@@ -21,7 +21,7 @@ E finalmente, depois de muito pensar <small>mentira, nem pensei tanto assim</sma
 <h2 class="image-title">Versionador</h2>
 ![pendrive versus git][image pendrive_git]
 
-<small>créditos da imagem à <a href="https://www.facebook.com/profile.php?id=100004309142813">Bruna &hearts;</a></small>
+<small>créditos da imagem à <a href="#">Bruna &hearts;</a></small>
 
 Imagine antigamente, antes dos <i>cloud services</i> <small>dropbox, box, drive, etc</small> existirem, como um time de desenvolvedores fazia para compartilhar as alterações feita por cada um no projeto?
 
