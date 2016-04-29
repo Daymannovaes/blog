@@ -5,7 +5,7 @@ image_list: /blog/src/img/a-mudanca-fundamental.jpg
 comments: true
 description: >
   As vezes procuramos a solução do nosso código incluindo mais ferramentas em nosso projeto. Porém o que deveria resolver as vezes parece apenas poluir. Qual seria a solução definitiva para isso?
-twitter_text: Ótimo post que ensina técnicas sobre como investigar um código e encontrar erros!
+twitter_text: Esse post fala sobre a mudança fundamental que devemos realizar para melhorar nossa qualidade de código! Incrível.
 ---
 
 Você é capaz de produzir um código organizado? Um projeto organizado? Um estilo de vida organizado?
