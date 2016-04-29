@@ -102,8 +102,79 @@ A vida é composta de muitos aspectos mas, se organizar direitinho, todo mundo t
 
 Acho que um bom ponto de partida é se analisar o ambiente em que você está trabalhando. Isso pode se extender também à sua mesa de trabalho e etc, mas vamos nos ater aos softwares aqui.
 
-Um bom editor de texto, ou uma boa IDE (Ambiente Integrado de Desenvolvimento)
+Um bom editor de texto, ou uma boa IDE (Ambiente Integrado de Desenvolvimento) nos fornecem uma série de facilidades na hora de programar. Nada de ficar usando Notepad!
 
+Para editor de texto, recomendo o leve e rápido <a href="https://www.sublimetext.com/">Sublime Text</a>. Que na sua forma cru é muito simples e, inclusive por isso, é <strong>muito</strong> rápido e leve. Ele é também muito fluído e possui ótimos atalhos de edição.
 
-flavio augusto
-https://youtu.be/pKLhlPavehs?t=593
+<span class="center-horizontal">
+	<img src="/blog/src/img/sublime.gif" style="height:400;">
+</span>
+
+Para a surpresa de muitos, ele é pago e custa $70, o que ao meu ver é um valor razoável, considerando que você vai ter pra sempre um ótimo software, além de contribuir com o desenvolvedor que o criou. <small>não é pelo fato dele não te bloquear de usar quando você não paga, que ele seja de graça. O mesmo ocorre com o WinRAR hehe</small>.
+
+Se você quer alguma IDE mais robusta, aconselho qualquer uma da <a href="https://www.jetbrains.com/">Jetbrains</a>.
+
+<h4>Padrões de projetos</h4>
+
+Calma, minha ideia aqui não é se alongar sobre esse tema, mas apenas atentar sobre sua existência.
+
+Para quem não conhece, um padrão de projeto, ou um <i>design pattern</i>, é uma solução geral para um problema recorrente no contexto de design de software. E um desses grandes problemas é a desorganização.
+
+É um assunto interessante de se ler, e a <a href="https://en.wikipedia.org/wiki/Software_design_pattern">Wikipédia</a> é um ótimo ponto de partida.
+
+Talvez o padrão de projeto mais famoso seja o <strong>MVC</strong>, no qual, de forma simplificada:
+
+<ul>
+	<li>
+		A camada de <strong>M</strong>odelo é onde ficam os seus dados e a parte da lógica que controla os dados de sua aplicação.
+	</li>
+	<li>
+		A camada de <strong>V</strong>isão é o que o usuário enxerga. São as <strong>telas</strong> e a lógica que controla como os dados serão mostrados.
+	</li>
+	<li>
+		A camada de <strong>C</strong>ontrole é mais ou menos a parte que une as outras duas. Funciona como um intermediar e controla as interações com o usuário.
+	</li>
+</ul>
+
+<span class="center-horizontal">
+	<img src="/blog/src/img/mvc.png" style="height:300px;">
+</span>
+
+<h4>Técnicas e outras ferramentas</h4>
+
+Há uma lista infinita de dicas que posso dar te ajudar na sua jornada de desenvolvimento, mas como eu já disse, lembre-se que a mudança principal deve partir de dentro de você! Estou citando aqui apenas as que <strong>eu</strong> considero mais importantes.
+
+<h5>css</h5>
+<strong>CSS</strong> é uma coisa que cresce exponencialmente em relação ao crescimento do projeto, então todo cuidado é pouco na hora de estruturá-lo. Além do uso de pré-processadores que cito no meu <a href="http://me.dayman.io/blog/como-fiz-meu-blog-em-2-dias-parte-2/">segundo post</a>, há várias técnicas testadas que dão certo!
+
+As técnicas vão desde nomeação de classes, como o <a href="http://getbem.com/introduction/">BEM</a>, até organização de arquivos, como o <a href="http://itcss.io/">itcss</a>, que o Will explica muito bem <a href="http://willianjusten.com.br/organizando-seu-css-com-itcss/">nesse post</a>.
+
+<h5>js</h5>
+Indo um pouco pro javascipt agora, lembra das dicas que seu professor de Algoritmos te deu? Então, as vezes temos preguiça de nos policiar a todo momento para seguí-las. Para resolver esse problema podemos usar um <strong>linter</strong>.
+
+Linter é um programa que checa o seu código procurando erros no estilo da sua escrita como, por exemplo:
+
+<ul>
+	<li>Nomeação de variáveis e funções</li>
+	<li>Identação</li>
+	<li>Variáveis declaradas e nunca usadas, ou variáveis usadas mas nunca declaradas</li>
+	<li>Tamanho máximo de funções</li>
+</ul>
+
+Com atenção para o último item! Mantenha seu código <strong>sempre modularizado</strong>. Procure sempre criar funções com <strong><i><u>no máximo</u></i></strong> 10 linhas.
+
+O linter de js mais famoso hoje em dia é o <a href="http://eslint.org/">ESlint</a>, que acaba de incorporar o JSCS.
+
+<h2>pausa estratégica</h2>
+
+Escrevi muito texto né? Pra descontraír, vai aí uma piada:
+
+<span class="center-horizontal">
+	<img src="/blog/src/img/piada-timchip.png" style="height:450px;">
+</span>
+
+Vou aproveitar a deixa e finalizar o post, que ficou deveras extenso, espero que você tenha gostado.
+
+<strong>Lembre-se</strong>, a organização e a produção de um código de qualidade depende do seu estado de ser! Não existe separação entre vida pessoal e vida profissional. Ambas são uma só, <strong>personalidade e ação se influenciam mutuamente</strong>.
+
+Se você deseja realizar uma mudança interior pra melhor, não deixe de se inscrever na lista de emails para receber mais posts como esse! E toma aí uma <a href="https://youtu.be/pKLhlPavehs?t=593">entrevista</a> do <strong>Flávio Augusto</strong>, um dos maiores empreendedores do Brasil, que fala sobre esse assunto. Beijos.
