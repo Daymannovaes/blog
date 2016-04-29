@@ -88,7 +88,7 @@ Você tá achando esse post muito louco e viajado? Que bom! Já que você chegou
 
 Bom, como já comentei, a mudança fundamental não vem de fora. Para mudarmos aspectos de nossa vida <small>e de nossos projetos também</small>, devemos mudar a nós mesmos.
 
-<strong>Porém</strong> <small>pausa dramática</small>, é uma <i>vida de mão dupla</i>. <strong>Personalidade e ação se influenciam mutuamente</strong>, isso é, a sua forma de ser influencia as suas ações, e suas ações também influenciam sua forma de ser.
+<strong>Porém</strong> <small>pausa dramática</small>, é uma <i>via de mão dupla</i>. <strong>Personalidade e ação se influenciam mutuamente</strong>, isso é, a sua forma de ser influencia as suas ações, e suas ações também influenciam sua forma de ser.
 
 Isso ajuda um pouco na hora de resolver o problema. Se eu consigo identificar várias ~falhas de organização~ na minha vida, posso começar resolvendo uma a uma e isso, naturalmente, vai ir se refletindo nos outros aspectos.
 
